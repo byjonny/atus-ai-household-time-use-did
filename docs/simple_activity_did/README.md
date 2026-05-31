@@ -1,4 +1,6 @@
-# ATUS DiD Analysis: AI-Exposed Household Activities
+# Secondary Check: Simple Activity-Level DiD
+
+This is the older, simpler analysis in the repository. It is kept here as a transparent activity-level sanity check, while the main README now foregrounds the Blank-style predetermined exposure design.
 
 Generated from official BLS ATUS PDQ metadata and BLS Public Data API annual series.
 
@@ -28,14 +30,14 @@ High-exposure primary codes: 010300, 020901, 030201, 030300, 060300, 080200, 080
 
 Low-exposure physical control codes: 020101, 020102, 020201, 020203, 020500, 020600, 020700, 020800
 
-Full mapping is in `results/activity_mapping.csv`.
+Full mapping is in `results/simple_activity_did/activity_mapping.csv`.
 
 ## Reproduction Steps
 
 1. Download the BLS ATUS PDQ metadata to `raw/survey_tu.json`.
-2. Run `scripts/atus_did_analysis.py --make-requests` to build BLS API request payloads and `results/activity_mapping.csv`.
+2. Run `scripts/simple_activity_did/atus_did_analysis.py --make-requests` to build BLS API request payloads and `results/simple_activity_did/activity_mapping.csv`.
 3. Fetch every `raw/bls_request_*_chunk*.json` payload from the BLS Public Data API into matching `raw/bls_data_*_chunk*.json` response files.
-4. Run `scripts/atus_did_analysis.py --analyze`.
+4. Run `scripts/simple_activity_did/atus_did_analysis.py --analyze`.
 
 The public BLS API caps unauthenticated requests at 10 years and 25 series, so the request payloads are split by year window and series chunk.
 
@@ -103,7 +105,7 @@ Event-study coefficients are high-exposure activity deviations relative to low-e
 | 2023 | 2019 | -1.520 | 0.550 | 0.609 | 0.006 | 0.013 |
 | 2024 | 2019 | -2.100 | 0.537 | 0.894 | 0.000 | 0.019 |
 
-SVG chart: `results/event_study_minutes.svg`
+SVG chart: `results/simple_activity_did/event_study_minutes.svg`
 
 ## Key Activity Changes
 
@@ -136,13 +138,13 @@ The estimates should also be read with caution because the public BLS annual act
 
 ## Files Produced
 
-- `results/activity_mapping.csv`
-- `results/atus_activity_year_values.csv`
-- `results/did_summary.csv`
-- `results/did_domain_minutes.csv`
-- `results/did_domain_pct_engaged.csv`
-- `results/event_study_minutes.csv`
-- `results/group_year_totals_minutes.csv`
-- `results/key_activity_changes_minutes.csv`
-- `results/did_pct_engaged.csv`
-- `results/event_study_minutes.svg`
+- `results/simple_activity_did/activity_mapping.csv`
+- `results/simple_activity_did/atus_activity_year_values.csv`
+- `results/simple_activity_did/did_summary.csv`
+- `results/simple_activity_did/did_domain_minutes.csv`
+- `results/simple_activity_did/did_domain_pct_engaged.csv`
+- `results/simple_activity_did/event_study_minutes.csv`
+- `results/simple_activity_did/group_year_totals_minutes.csv`
+- `results/simple_activity_did/key_activity_changes_minutes.csv`
+- `results/simple_activity_did/did_pct_engaged.csv`
+- `results/simple_activity_did/event_study_minutes.svg`

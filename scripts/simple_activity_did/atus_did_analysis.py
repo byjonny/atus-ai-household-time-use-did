@@ -21,10 +21,10 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "raw"
-RESULTS = ROOT / "results"
-DOCS = ROOT / "docs"
+RESULTS = ROOT / "results" / "simple_activity_did"
+DOCS = ROOT / "docs" / "simple_activity_did"
 
 SURVEY_JSON = RAW / "survey_tu.json"
 SURVEY_URL = "https://data.bls.gov/PDQWeb/survey/tu"
@@ -183,7 +183,7 @@ def build_mapping(survey: dict) -> pd.DataFrame:
 
 
 def make_requests(mapping: pd.DataFrame) -> None:
-    RESULTS.mkdir(exist_ok=True)
+    RESULTS.mkdir(parents=True, exist_ok=True)
     RAW.mkdir(exist_ok=True)
     mapping.to_csv(RESULTS / "activity_mapping.csv", index=False)
     series_ids = sorted(mapping["series_id"].unique())
@@ -517,7 +517,7 @@ def write_report(
     domain_minutes: pd.DataFrame,
     domain_pct: pd.DataFrame,
 ) -> None:
-    DOCS.mkdir(exist_ok=True)
+    DOCS.mkdir(parents=True, exist_ok=True)
     high_codes = set(HIGH_PRIMARY)
     low_codes = set(LOW_CONTROL)
     post_total = group_minutes[group_minutes["year"].isin([2023, 2024])]
@@ -531,7 +531,9 @@ def write_report(
 
     direction_sentence = "negative" if main["did_coef"] < 0 else "positive"
 
-    report = f"""# ATUS DiD Analysis: AI-Exposed Household Activities
+    report = f"""# Secondary Check: Simple Activity-Level DiD
+
+This is the older, simpler analysis in the repository. It is kept here as a transparent activity-level sanity check, while the main README now foregrounds the Blank-style predetermined exposure design.
 
 Generated from official BLS ATUS PDQ metadata and BLS Public Data API annual series.
 
@@ -561,14 +563,14 @@ High-exposure primary codes: {", ".join(sorted(high_codes))}
 
 Low-exposure physical control codes: {", ".join(sorted(low_codes))}
 
-Full mapping is in `results/activity_mapping.csv`.
+Full mapping is in `results/simple_activity_did/activity_mapping.csv`.
 
 ## Reproduction Steps
 
 1. Download the BLS ATUS PDQ metadata to `raw/survey_tu.json`.
-2. Run `scripts/atus_did_analysis.py --make-requests` to build BLS API request payloads and `results/activity_mapping.csv`.
+2. Run `scripts/simple_activity_did/atus_did_analysis.py --make-requests` to build BLS API request payloads and `results/simple_activity_did/activity_mapping.csv`.
 3. Fetch every `raw/bls_request_*_chunk*.json` payload from the BLS Public Data API into matching `raw/bls_data_*_chunk*.json` response files.
-4. Run `scripts/atus_did_analysis.py --analyze`.
+4. Run `scripts/simple_activity_did/atus_did_analysis.py --analyze`.
 
 The public BLS API caps unauthenticated requests at 10 years and 25 series, so the request payloads are split by year window and series chunk.
 
@@ -604,7 +606,7 @@ Event-study coefficients are high-exposure activity deviations relative to low-e
 
 {markdown_table(event_minutes)}
 
-SVG chart: `results/event_study_minutes.svg`
+SVG chart: `results/simple_activity_did/event_study_minutes.svg`
 
 ## Key Activity Changes
 
@@ -620,23 +622,23 @@ The estimates should also be read with caution because the public BLS annual act
 
 ## Files Produced
 
-- `results/activity_mapping.csv`
-- `results/atus_activity_year_values.csv`
-- `results/did_summary.csv`
-- `results/did_domain_minutes.csv`
-- `results/did_domain_pct_engaged.csv`
-- `results/event_study_minutes.csv`
-- `results/group_year_totals_minutes.csv`
-- `results/key_activity_changes_minutes.csv`
-- `results/did_pct_engaged.csv`
-- `results/event_study_minutes.svg`
+- `results/simple_activity_did/activity_mapping.csv`
+- `results/simple_activity_did/atus_activity_year_values.csv`
+- `results/simple_activity_did/did_summary.csv`
+- `results/simple_activity_did/did_domain_minutes.csv`
+- `results/simple_activity_did/did_domain_pct_engaged.csv`
+- `results/simple_activity_did/event_study_minutes.csv`
+- `results/simple_activity_did/group_year_totals_minutes.csv`
+- `results/simple_activity_did/key_activity_changes_minutes.csv`
+- `results/simple_activity_did/did_pct_engaged.csv`
+- `results/simple_activity_did/event_study_minutes.svg`
 """
-    (DOCS / "ATUS_DiD_report.md").write_text(report)
+    (DOCS / "README.md").write_text(report)
 
 
 def analyze() -> None:
-    RESULTS.mkdir(exist_ok=True)
-    DOCS.mkdir(exist_ok=True)
+    RESULTS.mkdir(parents=True, exist_ok=True)
+    DOCS.mkdir(parents=True, exist_ok=True)
     survey = load_survey()
     mapping = build_mapping(survey)
     mapping.to_csv(RESULTS / "activity_mapping.csv", index=False)
@@ -710,7 +712,7 @@ def analyze() -> None:
         RESULTS / "event_study_minutes.csv",
         RESULTS / "group_year_totals_minutes.csv",
         RESULTS / "key_activity_changes_minutes.csv",
-        DOCS / "ATUS_DiD_report.md",
+        DOCS / "README.md",
     ]:
         print(f"  {path}")
 
@@ -734,7 +736,7 @@ def main() -> None:
         for path in sorted(RAW.glob("bls_request_*.json")):
             print(f"  {path}")
         print("Then fetch with curl, e.g.:")
-        print("  curl -L -H 'Content-type: application/json' -d @raw/bls_request_2003_2012.json -o raw/bls_2003_2012.json https://api.bls.gov/publicAPI/v2/timeseries/data/")
+        print("  curl -L -H 'Content-type: application/json' -d @raw/bls_request_2003_2012_chunk1.json -o raw/bls_data_2003_2012_chunk1.json https://api.bls.gov/publicAPI/v2/timeseries/data/")
     if args.analyze:
         analyze()
     if not args.make_requests and not args.analyze:

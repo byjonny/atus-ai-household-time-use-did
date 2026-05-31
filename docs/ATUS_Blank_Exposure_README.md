@@ -1,6 +1,6 @@
 # Blank-Style ATUS Exposure Analysis
 
-This is the second analysis in the repo.
+This is the main analysis in the repo.
 
 It uses the idea of **predetermined exposure**:
 
