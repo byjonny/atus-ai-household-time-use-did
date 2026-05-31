@@ -1,0 +1,35 @@
+activity_code,activity_text,analysis_group,domain,rationale,stat_type_code,stat_name,series_id
+020901,Financial management,high_primary,finance_accounting,Household financial management is the closest ATUS match for accountant/financial-adviser self-production.,10101,avg_hours_per_day,TUU10101AA01048669
+020901,Financial management,high_primary,finance_accounting,Household financial management is the closest ATUS match for accountant/financial-adviser self-production.,30105,pct_engaged,TUU30105AA01048669
+080200,Financial services and banking,high_primary,finance_accounting,Financial services and banking captures market-facing household finance interactions.,10101,avg_hours_per_day,TUU10101AA01004609
+080200,Financial services and banking,high_primary,finance_accounting,Financial services and banking captures market-facing household finance interactions.,30105,pct_engaged,TUU30105AA01004609
+010300,Health-related self care,high_primary,health_medical,Health-related self-care captures household health management outside formal care.,10101,avg_hours_per_day,TUU10101AA01000721
+010300,Health-related self care,high_primary,health_medical,Health-related self-care captures household health management outside formal care.,30105,pct_engaged,TUU30105AA01000721
+030300,Activities related to household children's health,high_primary,health_medical,Activities related to household children's health capture parent-managed health production.,10101,avg_hours_per_day,TUU10101AA01002278
+030300,Activities related to household children's health,high_primary,health_medical,Activities related to household children's health capture parent-managed health production.,30105,pct_engaged,TUU30105AA01002278
+080400,Medical and care services,high_primary,health_medical,Medical and care services captures household interaction with formal care providers.,10101,avg_hours_per_day,TUU10101AA01004681
+080400,Medical and care services,high_primary,health_medical,Medical and care services captures household interaction with formal care providers.,30105,pct_engaged,TUU30105AA01004681
+600069,Government services,high_primary,legal_admin_proxy,ATUS has no clean legal-services code; government services is the closest administrative/legal-navigation proxy.,10101,avg_hours_per_day,TUU10101AA01017484
+600069,Government services,high_primary,legal_admin_proxy,ATUS has no clean legal-services code; government services is the closest administrative/legal-navigation proxy.,30105,pct_engaged,TUU30105AA01017484
+030201,Helping household children with homework,high_primary,tutoring_education,Helping household children with homework is the narrowest tutoring-like household activity.,10101,avg_hours_per_day,TUU10101AA01049992
+030201,Helping household children with homework,high_primary,tutoring_education,Helping household children with homework is the narrowest tutoring-like household activity.,30105,pct_engaged,TUU30105AA01049992
+060300,Homework and research,high_primary,tutoring_education,Homework and research captures self-directed education tasks where AI tutors/search assistants are plausible complements.,10101,avg_hours_per_day,TUU10101AA01003859
+060300,Homework and research,high_primary,tutoring_education,Homework and research captures self-directed education tasks where AI tutors/search assistants are plausible complements.,30105,pct_engaged,TUU30105AA01003859
+030200,Activities related to household children's education,high_sensitivity,tutoring_education_broad,Broader parent activity related to household children's education; used as sensitivity instead of the narrow homework-help code.,10101,avg_hours_per_day,TUU10101AA01002197
+030200,Activities related to household children's education,high_sensitivity,tutoring_education_broad,Broader parent activity related to household children's education; used as sensitivity instead of the narrow homework-help code.,30105,pct_engaged,TUU30105AA01002197
+020101,Interior cleaning,low_control,physical_household,Interior cleaning is a physical household task with low direct LLM substitution potential.,10101,avg_hours_per_day,TUU10101AA01047346
+020101,Interior cleaning,low_control,physical_household,Interior cleaning is a physical household task with low direct LLM substitution potential.,30105,pct_engaged,TUU30105AA01047346
+020102,Laundry,low_control,physical_household,Laundry is a physical household task with low direct LLM substitution potential.,10101,avg_hours_per_day,TUU10101AA01047535
+020102,Laundry,low_control,physical_household,Laundry is a physical household task with low direct LLM substitution potential.,30105,pct_engaged,TUU30105AA01047535
+020201,Food and drink preparation,low_control,physical_household,Food and drink preparation is mostly physical time use rather than advice/search time.,10101,avg_hours_per_day,TUU10101AA01047913
+020201,Food and drink preparation,low_control,physical_household,Food and drink preparation is mostly physical time use rather than advice/search time.,30105,pct_engaged,TUU30105AA01047913
+020203,Kitchen and food cleanup,low_control,physical_household,Kitchen and food cleanup is a physical household task.,10101,avg_hours_per_day,TUU10101AA01048102
+020203,Kitchen and food cleanup,low_control,physical_household,Kitchen and food cleanup is a physical household task.,30105,pct_engaged,TUU30105AA01048102
+020500,Lawn and garden care,low_control,physical_household,Lawn and garden care is a physical household task.,10101,avg_hours_per_day,TUU10101AA01001483
+020500,Lawn and garden care,low_control,physical_household,Lawn and garden care is a physical household task.,30105,pct_engaged,TUU30105AA01001483
+020600,Animal and pet care,low_control,physical_household,Animal and pet care is mostly physical care time.,10101,avg_hours_per_day,TUU10101AA01001720
+020600,Animal and pet care,low_control,physical_household,Animal and pet care is mostly physical care time.,30105,pct_engaged,TUU30105AA01001720
+020700,Vehicle care (by self),low_control,physical_household,Vehicle care by self is mostly physical maintenance time.,10101,avg_hours_per_day,TUU10101AA01001792
+020700,Vehicle care (by self),low_control,physical_household,Vehicle care by self is mostly physical maintenance time.,30105,pct_engaged,TUU30105AA01001792
+020800,"Appliance, tool, and toy maintenance (by self)",low_control,physical_household,"Appliance, tool, and toy maintenance is mostly physical maintenance time.",10101,avg_hours_per_day,TUU10101AA01001864
+020800,"Appliance, tool, and toy maintenance (by self)",low_control,physical_household,"Appliance, tool, and toy maintenance is mostly physical maintenance time.",30105,pct_engaged,TUU30105AA01001864

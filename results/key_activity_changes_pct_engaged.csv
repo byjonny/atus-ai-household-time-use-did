@@ -1,0 +1,17 @@
+activity_code,activity_text,exposure_group,domain,value_2019,value_2022,value_2023,value_2024,change_2019_2024,change_2022_2024
+020901,Financial management,high,finance_accounting,3.4,2.9,2.4,2.7,-0.6999999999999997,-0.19999999999999973
+080200,Financial services and banking,high,finance_accounting,2.3,1.5,1.3,1.5,-0.7999999999999998,0.0
+010300,Health-related self care,high,health_medical,6.8,6.8,6.9,6.5,-0.2999999999999998,-0.2999999999999998
+030300,Activities related to household children's health,high,health_medical,0.9,0.7,0.8,0.8,-0.09999999999999998,0.10000000000000009
+080400,Medical and care services,high,health_medical,3.8,3.8,3.5,4.0,0.20000000000000018,0.20000000000000018
+600069,Government services,high,legal_admin_proxy,0.4,0.3,0.3,0.3,-0.10000000000000003,0.0
+030201,Helping household children with homework,high,tutoring_education,2.6,2.1,1.9,1.5,-1.1,-0.6000000000000001
+060300,Homework and research,high,tutoring_education,6.1,5.4,5.4,5.7,-0.39999999999999947,0.2999999999999998
+020101,Interior cleaning,low,physical_household,22.6,23.3,23.9,25.7,3.099999999999998,2.3999999999999986
+020102,Laundry,low,physical_household,16.6,15.5,15.6,15.0,-1.6000000000000014,-0.5
+020201,Food and drink preparation,low,physical_household,56.0,57.2,57.8,60.3,4.299999999999997,3.0999999999999943
+020203,Kitchen and food cleanup,low,physical_household,23.0,23.1,22.5,22.4,-0.6000000000000014,-0.7000000000000028
+020500,Lawn and garden care,low,physical_household,8.7,9.0,8.9,9.9,1.200000000000001,0.9000000000000004
+020600,Animal and pet care,low,physical_household,18.2,19.3,20.4,20.1,1.9000000000000021,0.8000000000000007
+020700,Vehicle care (by self),low,physical_household,2.3,2.2,2.1,2.0,-0.2999999999999998,-0.20000000000000018
+020800,"Appliance, tool, and toy maintenance (by self)",low,physical_household,1.4,1.2,1.3,1.2,-0.19999999999999996,0.0

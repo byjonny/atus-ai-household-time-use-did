@@ -1,0 +1,7 @@
+raw/
+data/
+__pycache__/
+*.pyc
+.DS_Store
+.RData
+.Rhistory
