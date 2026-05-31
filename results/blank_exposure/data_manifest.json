@@ -1,0 +1,23 @@
+{
+  "respondent_zip": [
+    "atusresp_0324.dat",
+    "Resp0324_info.txt",
+    "atusresp_0324.sps",
+    "atusresp_0324.sas",
+    "atusresp_0324.do"
+  ],
+  "summary_zip": [
+    "atussum_0324.dat",
+    "Sum0324_info.txt",
+    "atussum_0324.sps",
+    "atussum_0324.sas",
+    "atussum_0324.do"
+  ],
+  "activity_zip": [
+    "atusact_0324.sps",
+    "Activity0324_info.txt",
+    "atusact_0324.dat",
+    "atusact_0324.do",
+    "atusact_0324.sas"
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="75" y1="225.1" x2="735" y2="225.1" stroke="#999" stroke-dasharray="4 4"/>
+<polyline points="75.0,199.5 169.3,183.1 263.6,170.2 452.1,153.2 640.7,209.0 735.0,233.5" fill="none" stroke="#1f6f8b" stroke-width="2.5"/>
+<line x1="75.0" y1="278.1" x2="75.0" y2="120.9" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="75.0" cy="199.5" r="4" fill="#1f6f8b"/>
+<text x="75.0" y="402" text-anchor="middle" font-family="Arial" font-size="12">2017</text>
+<line x1="169.3" y1="298.8" x2="169.3" y2="67.4" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="169.3" cy="183.1" r="4" fill="#1f6f8b"/>
+<text x="169.3" y="402" text-anchor="middle" font-family="Arial" font-size="12">2018</text>
+<line x1="263.6" y1="226.2" x2="263.6" y2="114.2" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="263.6" cy="170.2" r="4" fill="#1f6f8b"/>
+<text x="263.6" y="402" text-anchor="middle" font-family="Arial" font-size="12">2019</text>
+<line x1="452.1" y1="230.4" x2="452.1" y2="75.9" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="452.1" cy="153.2" r="4" fill="#1f6f8b"/>
+<text x="452.1" y="402" text-anchor="middle" font-family="Arial" font-size="12">2021</text>
+<line x1="640.7" y1="252.7" x2="640.7" y2="165.3" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="640.7" cy="209.0" r="4" fill="#1f6f8b"/>
+<text x="640.7" y="402" text-anchor="middle" font-family="Arial" font-size="12">2023</text>
+<line x1="735.0" y1="337.6" x2="735.0" y2="129.4" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="735.0" cy="233.5" r="4" fill="#1f6f8b"/>
+<text x="735.0" y="402" text-anchor="middle" font-family="Arial" font-size="12">2024</text>
+<line x1="75" y1="35" x2="75" y2="370" stroke="#333"/>
+<line x1="75" y1="370" x2="735" y2="370" stroke="#333"/>
+<text x="24" y="235" transform="rotate(-90 24 235)" font-family="Arial" font-size="13">Minutes/day per 1 SD exposure</text>
+<text x="380" y="24" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold">Event study: AI-exposed minutes, 2022 baseline</text>
+</svg>

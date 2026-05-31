@@ -69,12 +69,53 @@ The closest public-series proxy is **Government services**, but it is sparse. So
 ## Files
 
 - `docs/ATUS_DiD_report.md`: readable full report
+- `docs/ATUS_Blank_Exposure_report.md`: second report using predetermined group exposure
 - `scripts/atus_did_analysis.py`: reproducible analysis script
+- `scripts/atus_blank_exposure_design.py`: microdata Blank-style exposure script
 - `results/did_summary.csv`: main DiD results
 - `results/did_domain_minutes.csv`: results by domain
 - `results/key_activity_changes_minutes.csv`: activity-level changes
 - `results/event_study_minutes.csv`: event-study table
 - `results/event_study_minutes.svg`: small visual check
+
+## Second Analysis: Blank-Style Exposure
+
+The second analysis uses respondent microdata and a predetermined-exposure design:
+
+```text
+Pre_AI_Exposure_g = sum(activity time share before ChatGPT x activity AI score)
+```
+
+Groups are:
+
+```text
+age x gender x education x weekly-earnings group x parent status
+```
+
+Main result:
+
+```text
+-2.27 minutes/day per 1 SD of predetermined AI exposure
+p = 0.023
+```
+
+Interpretation: groups that were more exposed to AI-helpful activities before ChatGPT reduced score-weighted AI-exposed minutes after 2022, relative to less exposed groups.
+
+This still does **not** prove production-boundary movement. It is only a time-use exposure test.
+
+To run it, put the official BLS microdata ZIPs in `raw/`:
+
+```text
+atusresp-0324.zip
+atussum-0324.zip
+atusact-0324.zip
+```
+
+Then:
+
+```bash
+python3 scripts/atus_blank_exposure_design.py --run
+```
 
 ## Reproduce
 
