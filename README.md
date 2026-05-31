@@ -1,83 +1,84 @@
-# ATUS AI Exposure and Household Time Use
+# ATUS AI Household Time Use
 
-This repository tests whether U.S. household time use changed after the public arrival of generative AI, using the American Time Use Survey.
+This repo asks a simple question:
 
-The main design is a **Blank-et-al.-style predetermined exposure design**:
+**Did Americans spend less time on AI-exposed household activities after ChatGPT became widely available?**
 
-```text
-Do not measure who used AI.
-Measure who, before ChatGPT, spent more time on activities where AI could later be useful.
-Then test whether those more exposed groups changed differently after ChatGPT.
-```
+Short answer: **yes, in this preliminary ATUS test.**
 
-This matters for the household-production question because ATUS does not observe AI use, avoided purchases, or output quality. Predetermined exposure is therefore a first reduced-form test, not a direct proof of production-boundary movement.
+## Main Idea
 
-## Main Analysis: Blank-Style Exposure
+ATUS does not ask people whether they use AI. So the analysis does not measure AI use directly.
 
-The core exposure measure is built before ChatGPT:
+Instead, it uses a **Blank-style exposure design**:
 
-```text
-Pre_AI_Exposure_g = sum(pre-ChatGPT time share in activity a for group g
-                        x AI exposure score for activity a)
-```
+1. Look at what people did **before ChatGPT**.
+2. Identify groups that already spent more time on tasks where AI could later help.
+3. Compare those high-exposure groups with low-exposure groups after ChatGPT.
 
-Groups are:
+The exposure measure is:
 
 ```text
-age group x gender x education x weekly-earnings group x parent status
+pre-ChatGPT time share x AI exposure score
 ```
 
-The DiD/event-study model asks whether groups with higher pre-ChatGPT AI exposure changed more after 2022:
+Groups are defined by:
 
 ```text
-Outcome_g,t = group FE + year FE + beta(Pre_AI_Exposure_g x Post_ChatGPT_t) + error_g,t
+age x gender x education x earnings group x parent status
 ```
-
-The main outcome is score-weighted AI-exposed minutes. Other outcomes include household production, care, education, admin/services, leisure, market work, and total high-AI minutes.
 
 ## Main Result
 
-For score-weighted AI-exposed minutes, the main estimate is:
+More AI-exposed groups reduced AI-exposed time after ChatGPT:
 
 ```text
-beta = -2.27 minutes/day per 1 SD of predetermined group exposure
+-2.27 minutes/day per 1 SD of pre-ChatGPT AI exposure
 p = 0.023
 ```
 
-Interpretation: groups that were more exposed to AI-helpful activities before ChatGPT reduced score-weighted AI-exposed minutes after 2022 relative to less exposed groups.
-
-Leisure moves in the opposite direction, but not significantly:
+Leisure increased in the same design, but the estimate is not statistically significant:
 
 ```text
-beta = +2.81 minutes/day
++2.81 minutes/day
 p = 0.184
 ```
 
-The careful conclusion is:
+## How To Read This
 
-> ATUS shows a post-2022 relative decline in AI-exposed time for groups that were more exposed before ChatGPT. This is consistent with household time-saving, but it is not direct evidence that production moved across the GDP boundary.
+This is consistent with AI saving households time on exposed tasks.
 
-## Main Files
+But it is **not proof** that AI caused the change. ATUS does not observe AI use, task quality, avoided spending, or GDP-boundary movement.
 
-- `docs/ATUS_Blank_Exposure_report.md`: full Blank-style report
-- `docs/ATUS_Blank_Exposure_README.md`: short method guide
-- `scripts/atus_blank_exposure_design.py`: reproducible microdata script
-- `scores/activity_ai_scores.csv`: activity-level AI exposure scores
-- `results/blank_exposure/did_results.csv`: main regression table
-- `results/blank_exposure/high_vs_low_exposure_table.csv`: high- vs low-exposure comparison
-- `results/blank_exposure/event_study_ai_score_weighted_minutes.csv`: event-study table
+Careful interpretation:
+
+> Groups that were more exposed to AI-helpful activities before ChatGPT spent relatively less time on those activities after ChatGPT.
+
+## Data
+
+- Source: official BLS American Time Use Survey public-use microdata
+- Years: 2003-2024
+- Main comparison years: 2017-2024, excluding 2020
+- Post-ChatGPT period: 2023-2024
+- Weight: `TUFNWGTP`
+
+## Key Files
+
+- `docs/ATUS_Blank_Exposure_report.md`: full report
+- `scripts/atus_blank_exposure_design.py`: main analysis script
+- `scores/activity_ai_scores.csv`: AI exposure scores by ATUS activity
+- `results/blank_exposure/did_results.csv`: main regression results
 - `results/blank_exposure/event_study_ai_score_weighted_minutes.svg`: event-study plot
-- `results/blank_exposure/robustness_results.csv`: robustness checks
 
-## Reproduce The Main Analysis
+## Run The Main Analysis
 
-Install the small Python dependency set:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Put the official BLS ATUS public-use microdata ZIPs in `raw/`:
+Put the official BLS ZIP files in `raw/`:
 
 ```text
 atusresp-0324.zip
@@ -85,26 +86,17 @@ atussum-0324.zip
 atusact-0324.zip
 ```
 
-Then run:
+Run:
 
 ```bash
 python3 scripts/atus_blank_exposure_design.py --run
 ```
 
-The script uses the Activity Summary file for respondent-level minutes, demographics, and `TUFNWGTP` weights. It checks the Respondent and Activity ZIPs as official inputs. Raw BLS ZIPs are intentionally not committed.
+Raw BLS data are not included in the repo.
 
-## Data And Scope
+## Secondary Check
 
-- Source: official U.S. Bureau of Labor Statistics ATUS public-use microdata, 2003-2024.
-- Main exposure period: 2017, 2018, 2019, and 2021.
-- 2020 is excluded from the main pre-period because ATUS collection was disrupted by COVID.
-- Post-ChatGPT is defined as 2023 onward, with robustness checks for 2022+ and 2024 only.
-- Weights: `TUFNWGTP`.
-- Income group is based on `TRERNWA` weekly earnings, not total household income.
-
-## Secondary Check: Simple Activity-Level DiD
-
-The older analysis is now kept separately in:
+There is also a simpler activity-level DiD check in:
 
 ```text
 docs/simple_activity_did/
@@ -112,35 +104,17 @@ scripts/simple_activity_did/
 results/simple_activity_did/
 ```
 
-That check does something simpler: it compares a hand-picked set of AI-exposed ATUS activity codes with low-exposure physical household tasks in BLS public annual series.
+That check compares selected AI-exposed activities with low-exposure physical household tasks.
 
-Its main estimate is:
+Result:
 
 ```text
--1.50 minutes/day per high-exposure activity
+-1.50 minutes/day per AI-exposed activity
 p = 0.017
 ```
 
-This is useful as a transparent activity-level sanity check, but it is not the main design because it does not use predetermined demographic-group exposure. Read it here: `docs/simple_activity_did/README.md`.
+Use this only as a transparent robustness/sanity check. The main analysis is the Blank-style group-exposure design above.
 
-To rerun it:
+## Next Step
 
-```bash
-python3 scripts/simple_activity_did/atus_did_analysis.py --make-requests
-
-for f in raw/bls_request_*_chunk*.json; do
-  out="${f/bls_request_/bls_data_}"
-  curl -L -H "Content-type: application/json" \
-    -d "@$f" \
-    -o "$out" \
-    https://api.bls.gov/publicAPI/v2/timeseries/data/
-done
-
-python3 scripts/simple_activity_did/atus_did_analysis.py --analyze
-```
-
-## Limits
-
-This repository does not measure individual AI adoption. It also does not directly measure avoided market purchases, welfare, output quality, or GDP-boundary movement. The right interpretation is narrower and cleaner: it tests whether pre-exposed groups and activities changed differently after ChatGPT in ATUS time-use data.
-
-For a stronger production-boundary claim, the next step should link this design to CEX spending, direct AI-use survey data, or household-service substitution measures.
+To make a stronger production-boundary claim, link these ATUS time-use shifts to CEX spending data or direct survey data on household AI use.
