@@ -145,10 +145,10 @@ SD exposure: 0.0190
 ## Files
 
 - `scores/activity_ai_scores.csv`
-- `results/blank_exposure/group_pre_exposure.csv`
-- `results/blank_exposure/group_year_panel.csv`
-- `results/blank_exposure/did_results.csv`
-- `results/blank_exposure/event_study_ai_score_weighted_minutes.csv`
-- `results/blank_exposure/event_study_ai_score_weighted_minutes.svg`
-- `results/blank_exposure/high_vs_low_exposure_table.csv`
-- `results/blank_exposure/robustness_results.csv`
+- `results/group_pre_exposure.csv`
+- `results/group_year_panel.csv`
+- `results/did_results.csv`
+- `results/event_study_ai_score_weighted_minutes.csv`
+- `results/event_study_ai_score_weighted_minutes.svg`
+- `results/high_vs_low_exposure_table.csv`
+- `results/robustness_results.csv`

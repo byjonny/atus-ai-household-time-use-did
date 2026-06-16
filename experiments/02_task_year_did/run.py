@@ -13,28 +13,101 @@ This is a transparent descriptive DiD-style check, not a strong causal design.
 from __future__ import annotations
 
 import math
+import html
+import re
+import zipfile
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-from simple_bundle_prepost import (
-    AI_EXPOSED_CODES,
-    LOW_EXPOSURE_CODES,
-    POST_YEARS,
-    PRE_YEARS,
-    activity_labels_from_summary_setup,
-    read_summary,
-    weighted_mean,
-)
+ROOT = Path(__file__).resolve().parents[2]
+EXPERIMENT_DIR = Path(__file__).resolve().parent
+RAW = ROOT / "raw"
+RESULTS = EXPERIMENT_DIR / "results"
+DOCS = EXPERIMENT_DIR
 
+SUM_ZIP = RAW / "atussum-0324.zip"
+SUMMARY_MEMBER = "atussum_0324.dat"
 
-ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "results" / "simple_task_did"
-DOCS = ROOT / "docs" / "simple_task_did"
+PRE_YEARS = [2017, 2018, 2019, 2021, 2022]
+POST_YEARS = [2023, 2024]
+
+AI_EXPOSED_CODES = {
+    "020901": "Financial management",
+    "020902": "Household and personal organization and planning",
+    "020903": "Household and personal mail and messages",
+    "020904": "Household and personal e-mail and messages",
+    "030201": "Homework with household children",
+    "060301": "Research/homework for class for degree/certification",
+    "060302": "Research/homework for class for personal interest",
+    "060399": "Research/homework, n.e.c.",
+    "080201": "Banking",
+    "080202": "Using other financial services",
+    "080299": "Using financial services and banking, n.e.c.",
+    "080301": "Using legal services",
+    "080399": "Using legal services, n.e.c.",
+    "080401": "Using health and care services outside the home",
+    "080402": "Using in-home health and care services",
+    "080499": "Using medical services, n.e.c.",
+    "100103": "Obtaining licenses and paying fines, fees, taxes",
+    "100199": "Using government services, n.e.c.",
+}
+
+LOW_EXPOSURE_CODES = {
+    "020101": "Interior cleaning",
+    "020102": "Laundry",
+    "020103": "Sewing, repairing, and maintaining textiles",
+    "020104": "Storing interior household items, including food",
+    "020201": "Food and drink preparation",
+    "020202": "Food presentation",
+    "020203": "Kitchen and food cleanup",
+    "020301": "Interior arrangement, decoration, and repairs",
+    "020302": "Building and repairing furniture",
+    "020303": "Heating and cooling",
+    "020401": "Exterior cleaning",
+    "020402": "Exterior repair, improvements, and decoration",
+    "020501": "Lawn, garden, and houseplant care",
+    "020502": "Ponds, pools, and hot tubs",
+    "020599": "Lawn and garden, n.e.c.",
+    "020681": "Care for animals and pets",
+    "020701": "Vehicle repair and maintenance by self",
+    "020801": "Appliance, tool, and toy setup/repair/maintenance by self",
+    "020899": "Appliances and tools, n.e.c.",
+}
 
 MODEL_YEARS = PRE_YEARS + POST_YEARS
 BASE_YEAR = 2022
+
+
+def clean_label(value: str) -> str:
+    value = html.unescape(str(value))
+    value = value.replace("\xa0", " ")
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def activity_labels_from_summary_setup() -> dict[str, str]:
+    label_re = re.compile(r'label\s+t(\d{6})\s*=\s*"([^"]*)";', re.IGNORECASE)
+    with zipfile.ZipFile(SUM_ZIP) as zf:
+        text = zf.read("atussum_0324.sas").decode("latin1")
+    return {code: clean_label(label) for code, label in label_re.findall(text)}
+
+
+def read_summary(codes: set[str]) -> pd.DataFrame:
+    if not SUM_ZIP.exists():
+        raise FileNotFoundError(f"Missing {SUM_ZIP}. Put the official BLS atussum-0324.zip in raw/.")
+    usecols = ["TUCASEID", "TUYEAR", "TUFNWGTP"] + [f"t{code}" for code in sorted(codes)]
+    with zipfile.ZipFile(SUM_ZIP) as zf:
+        with zf.open(SUMMARY_MEMBER) as f:
+            df = pd.read_csv(f, usecols=usecols)
+    return df[df["TUFNWGTP"].gt(0)].copy()
+
+
+def weighted_mean(values: pd.Series, weights: pd.Series) -> float:
+    denom = float(weights.sum())
+    if denom <= 0:
+        return float("nan")
+    return float((values * weights).sum() / denom)
 
 
 def normal_pvalue(t_stat: float) -> float:
@@ -293,11 +366,11 @@ This is still a descriptive check. It does not prove that AI caused the change b
 
 ## Files
 
-- `results/simple_task_did/task_year_panel.csv`
-- `results/simple_task_did/task_year_did_results.csv`
-- `results/simple_task_did/task_year_did_means.csv`
-- `results/simple_task_did/task_year_event_study.csv`
-- `results/simple_task_did/task_year_event_study.svg`
+- `results/task_year_panel.csv`
+- `results/task_year_did_results.csv`
+- `results/task_year_did_means.csv`
+- `results/task_year_event_study.csv`
+- `results/task_year_event_study.svg`
 """
     (DOCS / "README.md").write_text(report)
 

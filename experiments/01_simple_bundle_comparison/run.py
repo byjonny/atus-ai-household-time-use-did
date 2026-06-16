@@ -20,10 +20,11 @@ from pathlib import Path
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
+EXPERIMENT_DIR = Path(__file__).resolve().parent
 RAW = ROOT / "raw"
-RESULTS = ROOT / "results" / "simple_bundle_prepost"
-DOCS = ROOT / "docs" / "simple_bundle_prepost"
+RESULTS = EXPERIMENT_DIR / "results"
+DOCS = EXPERIMENT_DIR
 
 SUM_ZIP = RAW / "atussum-0324.zip"
 SUMMARY_MEMBER = "atussum_0324.dat"
@@ -408,7 +409,7 @@ AI-exposed bundle: finance, household admin, mail/e-mail, homework/research, ban
 
 Low-exposure physical bundle: cleaning, laundry, food preparation, kitchen cleanup, lawn/garden, vehicle repair, appliance/tool repair.
 
-Full mapping: `results/simple_bundle_prepost/bundle_mapping.csv`
+Full mapping: `results/bundle_mapping.csv`
 
 ## Method
 
@@ -452,9 +453,9 @@ Simple bundle DiD:
 
 Sample counts are unweighted respondent counts with positive minutes in the bundle in that year.
 
-Plot: `results/simple_bundle_prepost/bundle_sample_counts.svg`
+Plot: `results/bundle_sample_counts.svg`
 
-Annual sample count table: `results/simple_bundle_prepost/annual_bundle_sample_counts.csv`
+Annual sample count table: `results/annual_bundle_sample_counts.csv`
 
 ## AI-Exposed Task Detail
 
@@ -464,9 +465,9 @@ This table breaks the AI-exposed bundle into individual ATUS tasks.
 
 Task detail files:
 
-- `results/simple_bundle_prepost/ai_exposed_task_annual_detail.csv`
-- `results/simple_bundle_prepost/ai_exposed_task_prepost_detail.csv`
-- `results/simple_bundle_prepost/ai_task_prepost_change.svg`
+- `results/ai_exposed_task_annual_detail.csv`
+- `results/ai_exposed_task_prepost_detail.csv`
+- `results/ai_task_prepost_change.svg`
 
 ## Interpretation
 
@@ -476,12 +477,12 @@ This is descriptive. It does not prove AI caused the change.
 
 ## Files
 
-- `results/simple_bundle_prepost/bundle_mapping.csv`
-- `results/simple_bundle_prepost/annual_bundle_minutes.csv`
-- `results/simple_bundle_prepost/prepost_bundle_summary.csv`
-- `results/simple_bundle_prepost/simple_bundle_did.csv`
-- `results/simple_bundle_prepost/bundle_trends.svg`
-- `results/simple_bundle_prepost/bundle_sample_counts.svg`
+- `results/bundle_mapping.csv`
+- `results/annual_bundle_minutes.csv`
+- `results/prepost_bundle_summary.csv`
+- `results/simple_bundle_did.csv`
+- `results/bundle_trends.svg`
+- `results/bundle_sample_counts.svg`
 """
     (DOCS / "README.md").write_text(report)
 

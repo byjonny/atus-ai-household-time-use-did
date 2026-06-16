@@ -65,8 +65,8 @@ This is still a descriptive check. It does not prove that AI caused the change b
 
 ## Files
 
-- `results/simple_task_did/task_year_panel.csv`
-- `results/simple_task_did/task_year_did_results.csv`
-- `results/simple_task_did/task_year_did_means.csv`
-- `results/simple_task_did/task_year_event_study.csv`
-- `results/simple_task_did/task_year_event_study.svg`
+- `results/task_year_panel.csv`
+- `results/task_year_did_results.csv`
+- `results/task_year_did_means.csv`
+- `results/task_year_event_study.csv`
+- `results/task_year_event_study.svg`

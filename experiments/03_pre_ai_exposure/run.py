@@ -21,11 +21,12 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
+EXPERIMENT_DIR = Path(__file__).resolve().parent
 RAW = ROOT / "raw"
-SCORES = ROOT / "scores"
-RESULTS = ROOT / "results" / "blank_exposure"
-DOCS = ROOT / "docs"
+SCORES = EXPERIMENT_DIR / "scores"
+RESULTS = EXPERIMENT_DIR / "results"
+REPORT = EXPERIMENT_DIR / "REPORT.md"
 
 RESP_ZIP = RAW / "atusresp-0324.zip"
 SUM_ZIP = RAW / "atussum-0324.zip"
@@ -534,7 +535,7 @@ def write_event_svg(event: pd.DataFrame, path: Path) -> None:
 
 
 def write_report(did: pd.DataFrame, event: pd.DataFrame, highlow: pd.DataFrame, robustness_df: pd.DataFrame, exposure: pd.DataFrame) -> None:
-    DOCS.mkdir(exist_ok=True)
+    EXPERIMENT_DIR.mkdir(exist_ok=True)
     key = did[(did["outcome"] == "ai_score_weighted_minutes") & (did["post_mode"] == "post_2023plus")].iloc[0]
     leisure = did[(did["outcome"] == "leisure_minutes") & (did["post_mode"] == "post_2023plus")].iloc[0]
 
@@ -608,15 +609,15 @@ SD exposure: {exposure['pre_ai_exposure'].std(ddof=0):.4f}
 ## Files
 
 - `scores/activity_ai_scores.csv`
-- `results/blank_exposure/group_pre_exposure.csv`
-- `results/blank_exposure/group_year_panel.csv`
-- `results/blank_exposure/did_results.csv`
-- `results/blank_exposure/event_study_ai_score_weighted_minutes.csv`
-- `results/blank_exposure/event_study_ai_score_weighted_minutes.svg`
-- `results/blank_exposure/high_vs_low_exposure_table.csv`
-- `results/blank_exposure/robustness_results.csv`
+- `results/group_pre_exposure.csv`
+- `results/group_year_panel.csv`
+- `results/did_results.csv`
+- `results/event_study_ai_score_weighted_minutes.csv`
+- `results/event_study_ai_score_weighted_minutes.svg`
+- `results/high_vs_low_exposure_table.csv`
+- `results/robustness_results.csv`
 """
-    (DOCS / "ATUS_Blank_Exposure_report.md").write_text(report)
+    REPORT.write_text(report)
 
 
 def run() -> None:
@@ -659,7 +660,7 @@ def run() -> None:
 
     write_report(did, event, highlow, robust, exposure)
     print("Wrote Blank-style exposure outputs to", RESULTS)
-    print("Report:", DOCS / "ATUS_Blank_Exposure_report.md")
+    print("Report:", REPORT)
 
 
 def main() -> None:
