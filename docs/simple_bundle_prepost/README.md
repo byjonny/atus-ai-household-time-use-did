@@ -42,15 +42,15 @@ Change:
 
 Low-exposure physical bundle:
 
-`81.22 -> 86.78 minutes/day`
+`98.89 -> 106.41 minutes/day`
 
 Change:
 
-`5.57 minutes/day`
+`7.52 minutes/day`
 
 Simple bundle DiD:
 
-`-7.07 minutes/day`
+`-9.02 minutes/day`
 
 ## Sample Counts
 

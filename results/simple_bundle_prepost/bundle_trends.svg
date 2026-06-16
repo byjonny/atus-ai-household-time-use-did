@@ -6,16 +6,18 @@
 <text x="24" y="230" transform="rotate(-90 24 230)" font-family="Arial" font-size="13">Minutes per day</text>
 <line x1="75" y1="380.0" x2="785" y2="380.0" stroke="#eee"/>
 <text x="65" y="384.0" text-anchor="end" font-family="Arial" font-size="12">0</text>
-<line x1="75" y1="312.4" x2="785" y2="312.4" stroke="#eee"/>
-<text x="65" y="316.4" text-anchor="end" font-family="Arial" font-size="12">20</text>
-<line x1="75" y1="244.8" x2="785" y2="244.8" stroke="#eee"/>
-<text x="65" y="248.8" text-anchor="end" font-family="Arial" font-size="12">40</text>
-<line x1="75" y1="177.3" x2="785" y2="177.3" stroke="#eee"/>
-<text x="65" y="181.3" text-anchor="end" font-family="Arial" font-size="12">60</text>
-<line x1="75" y1="109.7" x2="785" y2="109.7" stroke="#eee"/>
-<text x="65" y="113.7" text-anchor="end" font-family="Arial" font-size="12">80</text>
-<line x1="75" y1="42.1" x2="785" y2="42.1" stroke="#eee"/>
-<text x="65" y="46.1" text-anchor="end" font-family="Arial" font-size="12">100</text>
+<line x1="75" y1="324.7" x2="785" y2="324.7" stroke="#eee"/>
+<text x="65" y="328.7" text-anchor="end" font-family="Arial" font-size="12">20</text>
+<line x1="75" y1="269.4" x2="785" y2="269.4" stroke="#eee"/>
+<text x="65" y="273.4" text-anchor="end" font-family="Arial" font-size="12">40</text>
+<line x1="75" y1="214.1" x2="785" y2="214.1" stroke="#eee"/>
+<text x="65" y="218.1" text-anchor="end" font-family="Arial" font-size="12">60</text>
+<line x1="75" y1="158.9" x2="785" y2="158.9" stroke="#eee"/>
+<text x="65" y="162.9" text-anchor="end" font-family="Arial" font-size="12">80</text>
+<line x1="75" y1="103.6" x2="785" y2="103.6" stroke="#eee"/>
+<text x="65" y="107.6" text-anchor="end" font-family="Arial" font-size="12">100</text>
+<line x1="75" y1="48.3" x2="785" y2="48.3" stroke="#eee"/>
+<text x="65" y="52.3" text-anchor="end" font-family="Arial" font-size="12">120</text>
 <text x="75.0" y="416" text-anchor="middle" font-family="Arial" font-size="12">2017</text>
 <text x="176.4" y="416" text-anchor="middle" font-family="Arial" font-size="12">2018</text>
 <text x="277.9" y="416" text-anchor="middle" font-family="Arial" font-size="12">2019</text>
@@ -25,23 +27,23 @@
 <text x="785.0" y="416" text-anchor="middle" font-family="Arial" font-size="12">2024</text>
 <line x1="582.1" y1="35" x2="582.1" y2="380" stroke="#999" stroke-dasharray="4 4"/>
 <text x="590.1" y="51" font-family="Arial" font-size="12" fill="#555">2022 baseline</text>
-<polyline points="75.0,294.0 176.4,290.2 277.9,287.0 480.7,286.8 582.1,295.1 683.6,297.7 785.0,293.7" fill="none" stroke="#1f6f8b" stroke-width="2.6"/>
-<circle cx="75.0" cy="294.0" r="4" fill="#1f6f8b"/>
-<circle cx="176.4" cy="290.2" r="4" fill="#1f6f8b"/>
-<circle cx="277.9" cy="287.0" r="4" fill="#1f6f8b"/>
-<circle cx="480.7" cy="286.8" r="4" fill="#1f6f8b"/>
-<circle cx="582.1" cy="295.1" r="4" fill="#1f6f8b"/>
-<circle cx="683.6" cy="297.7" r="4" fill="#1f6f8b"/>
-<circle cx="785.0" cy="293.7" r="4" fill="#1f6f8b"/>
+<polyline points="75.0,309.7 176.4,306.6 277.9,303.9 480.7,303.7 582.1,310.5 683.6,312.7 785.0,309.4" fill="none" stroke="#1f6f8b" stroke-width="2.6"/>
+<circle cx="75.0" cy="309.7" r="4" fill="#1f6f8b"/>
+<circle cx="176.4" cy="306.6" r="4" fill="#1f6f8b"/>
+<circle cx="277.9" cy="303.9" r="4" fill="#1f6f8b"/>
+<circle cx="480.7" cy="303.7" r="4" fill="#1f6f8b"/>
+<circle cx="582.1" cy="310.5" r="4" fill="#1f6f8b"/>
+<circle cx="683.6" cy="312.7" r="4" fill="#1f6f8b"/>
+<circle cx="785.0" cy="309.4" r="4" fill="#1f6f8b"/>
 <line x1="90" y1="432" x2="118" y2="432" stroke="#1f6f8b" stroke-width="3"/>
 <text x="126" y="436" font-family="Arial" font-size="13">AI-exposed bundle</text>
-<polyline points="75.0,108.1 176.4,116.0 277.9,116.6 480.7,91.5 582.1,95.7 683.6,93.5 785.0,80.0" fill="none" stroke="#a85b2a" stroke-width="2.6"/>
-<circle cx="75.0" cy="108.1" r="4" fill="#a85b2a"/>
-<circle cx="176.4" cy="116.0" r="4" fill="#a85b2a"/>
-<circle cx="277.9" cy="116.6" r="4" fill="#a85b2a"/>
-<circle cx="480.7" cy="91.5" r="4" fill="#a85b2a"/>
-<circle cx="582.1" cy="95.7" r="4" fill="#a85b2a"/>
-<circle cx="683.6" cy="93.5" r="4" fill="#a85b2a"/>
+<polyline points="75.0,110.3 176.4,117.1 277.9,118.2 480.7,89.8 582.1,97.9 683.6,91.7 785.0,80.0" fill="none" stroke="#a85b2a" stroke-width="2.6"/>
+<circle cx="75.0" cy="110.3" r="4" fill="#a85b2a"/>
+<circle cx="176.4" cy="117.1" r="4" fill="#a85b2a"/>
+<circle cx="277.9" cy="118.2" r="4" fill="#a85b2a"/>
+<circle cx="480.7" cy="89.8" r="4" fill="#a85b2a"/>
+<circle cx="582.1" cy="97.9" r="4" fill="#a85b2a"/>
+<circle cx="683.6" cy="91.7" r="4" fill="#a85b2a"/>
 <circle cx="785.0" cy="80.0" r="4" fill="#a85b2a"/>
 <line x1="340" y1="432" x2="368" y2="432" stroke="#a85b2a" stroke-width="3"/>
 <text x="376" y="436" font-family="Arial" font-size="13">Low-exposure physical bundle</text>

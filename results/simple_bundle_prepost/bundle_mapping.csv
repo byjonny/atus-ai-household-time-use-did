@@ -19,10 +19,20 @@ ai_exposed,100103,"Obtaining licenses & paying fines, fees, taxes","Obtaining li
 ai_exposed,100199,"Using government services, n.e.c.*","Using government services, n.e.c."
 low_exposure_physical,020101,Interior cleaning,Interior cleaning
 low_exposure_physical,020102,Laundry,Laundry
+low_exposure_physical,020103,"Sewing, repairing, & maintaining textiles","Sewing, repairing, and maintaining textiles"
+low_exposure_physical,020104,"Storing interior hh items, inc. food","Storing interior household items, including food"
 low_exposure_physical,020201,Food and drink preparation,Food and drink preparation
+low_exposure_physical,020202,Food presentation,Food presentation
 low_exposure_physical,020203,Kitchen and food clean-up,Kitchen and food cleanup
+low_exposure_physical,020301,"Interior arrangement, decoration, & repairs","Interior arrangement, decoration, and repairs"
+low_exposure_physical,020302,Building and repairing furniture,Building and repairing furniture
+low_exposure_physical,020303,Heating and cooling,Heating and cooling
+low_exposure_physical,020401,Exterior cleaning,Exterior cleaning
+low_exposure_physical,020402,"Exterior repair, improvements, & decoration","Exterior repair, improvements, and decoration"
 low_exposure_physical,020501,"Lawn, garden, and houseplant care","Lawn, garden, and houseplant care"
 low_exposure_physical,020502,"Ponds, pools, and hot tubs","Ponds, pools, and hot tubs"
 low_exposure_physical,020599,"Lawn and garden, n.e.c.*","Lawn and garden, n.e.c."
+low_exposure_physical,020681,Care for animals and pets (not veterinary care),Care for animals and pets
 low_exposure_physical,020701,Vehicle repair and maintenance (by self),Vehicle repair and maintenance by self
 low_exposure_physical,020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)","Appliance, tool, and toy setup/repair/maintenance by self"
+low_exposure_physical,020899,"Appliances and tools, n.e.c.*","Appliances and tools, n.e.c."

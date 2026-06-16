@@ -110,8 +110,8 @@ Result:
 
 ```text
 AI-exposed bundle: 26.45 -> 24.95 min/day
-Low-exposure bundle: 81.22 -> 86.78 min/day
-Simple bundle DiD: -7.07 min/day
+Low-exposure bundle: 98.89 -> 106.41 min/day
+Simple bundle DiD: -9.02 min/day
 ```
 
 This is the easiest version to understand. It is descriptive and has no regression.

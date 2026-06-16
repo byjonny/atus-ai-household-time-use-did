@@ -64,13 +64,23 @@ AI_EXPOSED_CODES = {
 LOW_EXPOSURE_CODES = {
     "020101": "Interior cleaning",
     "020102": "Laundry",
+    "020103": "Sewing, repairing, and maintaining textiles",
+    "020104": "Storing interior household items, including food",
     "020201": "Food and drink preparation",
+    "020202": "Food presentation",
     "020203": "Kitchen and food cleanup",
+    "020301": "Interior arrangement, decoration, and repairs",
+    "020302": "Building and repairing furniture",
+    "020303": "Heating and cooling",
+    "020401": "Exterior cleaning",
+    "020402": "Exterior repair, improvements, and decoration",
     "020501": "Lawn, garden, and houseplant care",
     "020502": "Ponds, pools, and hot tubs",
     "020599": "Lawn and garden, n.e.c.",
+    "020681": "Care for animals and pets",
     "020701": "Vehicle repair and maintenance by self",
     "020801": "Appliance, tool, and toy setup/repair/maintenance by self",
+    "020899": "Appliances and tools, n.e.c.",
 }
 
 
