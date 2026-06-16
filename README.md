@@ -156,6 +156,12 @@ Post estimates:
 2024: -0.318 min/day, p = 0.152
 ```
 
+Coefficient plot:
+
+```text
+experiments/04_task_year_event_study/results/event_study_coefficients.svg
+```
+
 Main warning:
 
 ```text

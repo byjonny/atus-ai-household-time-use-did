@@ -36,6 +36,12 @@ Task-year observations in model years: 259
 | 2023 | -0.161 | 0.130 | 0.218 |
 | 2024 | -0.318 | 0.222 | 0.152 |
 
+Coefficient plot:
+
+`results/event_study_coefficients.svg`
+
+![Event-study coefficient plot](results/event_study_coefficients.svg)
+
 Post estimates:
 
 - 2023: -0.161 minutes/day, p = 0.218
@@ -58,3 +64,4 @@ The event study is mainly a diagnostic: it shows both the post-ChatGPT pattern a
 - `results/task_year_panel.csv`
 - `results/task_year_event_study.csv`
 - `results/task_year_event_study.svg`
+- `results/event_study_coefficients.svg`

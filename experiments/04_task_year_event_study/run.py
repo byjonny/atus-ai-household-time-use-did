@@ -293,6 +293,69 @@ def write_event_svg(event: pd.DataFrame, path: Path) -> None:
     path.write_text("\n".join(elems))
 
 
+def write_coefficient_svg(event: pd.DataFrame, path: Path) -> None:
+    plot = pd.concat([
+        event[["year", "coef", "cluster_se_by_task"]].copy(),
+        pd.DataFrame([{"year": BASE_YEAR, "coef": 0.0, "cluster_se_by_task": 0.0}]),
+    ], ignore_index=True).sort_values("year")
+    plot["ci_low"] = plot["coef"] - 1.96 * plot["cluster_se_by_task"]
+    plot["ci_high"] = plot["coef"] + 1.96 * plot["cluster_se_by_task"]
+
+    width, height = 860, 500
+    ml, mr, mt, mb = 90, 45, 50, 75
+    years = plot["year"].tolist()
+    ymin = min(plot["ci_low"].min(), 0.0)
+    ymax = max(plot["ci_high"].max(), 0.0)
+    pad = max((ymax - ymin) * 0.16, 0.25)
+    ymin -= pad
+    ymax += pad
+
+    def sx(year: int) -> float:
+        return ml + (year - min(years)) / (max(years) - min(years)) * (width - ml - mr)
+
+    def sy(value: float) -> float:
+        return mt + (ymax - value) / (ymax - ymin) * (height - mt - mb)
+
+    elems = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="white"/>',
+        '<text x="430" y="28" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold">Event-study coefficients relative to 2022</text>',
+        '<text x="430" y="48" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">AI-exposed tasks vs low-exposure physical tasks, task and year fixed effects</text>',
+        f'<line x1="{ml}" y1="{sy(0):.1f}" x2="{width-mr}" y2="{sy(0):.1f}" stroke="#777" stroke-dasharray="4 4"/>',
+        f'<line x1="{sx(BASE_YEAR):.1f}" y1="{mt}" x2="{sx(BASE_YEAR):.1f}" y2="{height-mb}" stroke="#aaa" stroke-dasharray="4 4"/>',
+        f'<line x1="{ml}" y1="{mt}" x2="{ml}" y2="{height-mb}" stroke="#333"/>',
+        f'<line x1="{ml}" y1="{height-mb}" x2="{width-mr}" y2="{height-mb}" stroke="#333"/>',
+        '<text x="28" y="255" transform="rotate(-90 28 255)" font-family="Arial" font-size="13">Coefficient, minutes/day</text>',
+    ]
+
+    tick_values = [-1.0, -0.5, 0.0, 0.5, 1.0]
+    for tick in tick_values:
+        if ymin <= tick <= ymax:
+            y = sy(tick)
+            elems.append(f'<line x1="{ml}" y1="{y:.1f}" x2="{width-mr}" y2="{y:.1f}" stroke="#eee"/>')
+            elems.append(f'<text x="{ml-12}" y="{y+4:.1f}" text-anchor="end" font-family="Arial" font-size="12">{tick:.1f}</text>')
+
+    for row in plot.itertuples(index=False):
+        x = sx(int(row.year))
+        color = "#1f6f8b" if row.year >= 2023 else "#6c757d"
+        if row.year == BASE_YEAR:
+            color = "#111"
+            elems.append(f'<circle cx="{x:.1f}" cy="{sy(0):.1f}" r="5" fill="{color}"/>')
+            elems.append(f'<text x="{x:.1f}" y="{sy(0)-12:.1f}" text-anchor="middle" font-family="Arial" font-size="11">baseline</text>')
+        else:
+            elems.append(f'<line x1="{x:.1f}" y1="{sy(row.ci_low):.1f}" x2="{x:.1f}" y2="{sy(row.ci_high):.1f}" stroke="#77a9bb" stroke-width="2"/>')
+            elems.append(f'<line x1="{x-7:.1f}" y1="{sy(row.ci_low):.1f}" x2="{x+7:.1f}" y2="{sy(row.ci_low):.1f}" stroke="#77a9bb" stroke-width="2"/>')
+            elems.append(f'<line x1="{x-7:.1f}" y1="{sy(row.ci_high):.1f}" x2="{x+7:.1f}" y2="{sy(row.ci_high):.1f}" stroke="#77a9bb" stroke-width="2"/>')
+            elems.append(f'<circle cx="{x:.1f}" cy="{sy(row.coef):.1f}" r="5" fill="{color}"/>')
+            label_y = sy(row.coef) - 11 if row.coef >= 0 else sy(row.coef) + 20
+            elems.append(f'<text x="{x:.1f}" y="{label_y:.1f}" text-anchor="middle" font-family="Arial" font-size="11">{row.coef:.2f}</text>')
+        elems.append(f'<text x="{x:.1f}" y="{height-38}" text-anchor="middle" font-family="Arial" font-size="12">{int(row.year)}</text>')
+
+    elems.append('<text x="430" y="470" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Whiskers show approximate 95% confidence intervals clustered by task</text>')
+    elems.append("</svg>")
+    path.write_text("\n".join(elems))
+
+
 def write_report(event: pd.DataFrame, panel: pd.DataFrame) -> None:
     DOCS.mkdir(parents=True, exist_ok=True)
     event_lookup = event.set_index("year")
@@ -339,6 +402,12 @@ Task-year observations in model years: {int(panel[panel['year'].isin(MODEL_YEARS
 
 {table}
 
+Coefficient plot:
+
+`results/event_study_coefficients.svg`
+
+![Event-study coefficient plot](results/event_study_coefficients.svg)
+
 Post estimates:
 
 - 2023: {event_lookup.loc[2023, 'coef']:.3f} minutes/day, p = {event_lookup.loc[2023, 'cluster_p_norm']:.3f}
@@ -361,6 +430,7 @@ The event study is mainly a diagnostic: it shows both the post-ChatGPT pattern a
 - `results/task_year_panel.csv`
 - `results/task_year_event_study.csv`
 - `results/task_year_event_study.svg`
+- `results/event_study_coefficients.svg`
 """
     (DOCS / "README.md").write_text(report)
 
@@ -373,6 +443,7 @@ def main() -> None:
     panel.to_csv(RESULTS / "task_year_panel.csv", index=False)
     event.to_csv(RESULTS / "task_year_event_study.csv", index=False)
     write_event_svg(event, RESULTS / "task_year_event_study.svg")
+    write_coefficient_svg(event, RESULTS / "event_study_coefficients.svg")
     write_report(event, panel)
 
     print("Wrote task-year event-study outputs to", RESULTS)
