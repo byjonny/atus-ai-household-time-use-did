@@ -1,0 +1,2 @@
+model,outcome,pre_years,post_years,coef_treated_x_post,se,p_norm,cluster_se_by_task,cluster_p_norm,n_task_years,task_clusters,ai_exposed_tasks,low_exposure_tasks,simple_ai_change,simple_low_change,simple_difference_in_differences
+task_year_did_task_fe_year_fe,TUFNWGTP-weighted task minutes per day,"2017,2018,2019,2021,2022","2023,2024",-0.478926986598504,0.13962654028880703,0.0006034545519231487,0.2411732173678322,0.04705313545392372,259,37,18,19,-0.08327185234577228,0.3956551342526886,-0.4789269865984609

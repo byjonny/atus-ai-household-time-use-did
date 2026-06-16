@@ -1,0 +1,778 @@
+activity_code,activity_text,bundle,treated_ai,year,weighted_mean_minutes,sample_n_positive_minutes,weighted_engaged_population,respondents_total,post_2023plus,treated_x_post
+020101,Interior cleaning,low_exposure_physical,0,2003,21.98553693669536,5653,20166252323.330357,20720,0,0
+020102,Laundry,low_exposure_physical,0,2003,11.11428179968337,3870,13883540886.005415,20720,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2003,1.8312643622164213,288,1059512998.7016859,20720,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2003,1.6479152642942303,1899,6449893297.628674,20720,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2003,23.95644483251642,10328,38412380149.15546,20720,0,0
+020202,Food presentation,low_exposure_physical,0,2003,0.35338435436998533,379,1480885072.183337,20720,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2003,7.621505905039713,5125,18619777464.557175,20720,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2003,4.431719339417883,615,2208349751.561263,20720,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2003,0.5452133152372715,86,308119035.060909,20720,0,0
+020303,Heating and cooling,low_exposure_physical,0,2003,0.575871427415336,197,730967617.202959,20720,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2003,1.8626532521724306,494,1761059374.864475,20720,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2003,2.180622150134401,269,950518325.972684,20720,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2003,11.528271112831018,2237,8170464163.716012,20720,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2003,0.28300195231623093,69,303339876.44253796,20720,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2003,0.020662490788306738,6,22086240.329438,20720,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2003,4.864579262872459,2758,10811862634.324549,20720,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2003,2.917501394616529,683,2666872794.647807,20720,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2003,1.037380491832098,303,1164814984.796267,20720,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2003,0.006009953935433677,9,45077579.761482,20720,0,0
+020901,Financial management,ai_exposed,1,2003,2.0870172474056394,874,3541592950.75845,20720,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2003,5.670841541335786,2426,9178072473.22519,20720,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2003,1.8344451804603654,1638,6686325635.198118,20720,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2003,2.1717096556353472,1000,4331510077.71471,20720,0,0
+030201,Homework (hh children),ai_exposed,1,2003,1.8554115610218416,697,2730253671.726456,20720,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2003,7.427769368470041,741,3963464716.8462076,20720,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2003,0.2682106788555951,51,198953424.268608,20720,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2003,0.3510313422328278,56,322298141.46071,20720,0,0
+080201,Banking,ai_exposed,1,2003,0.3729064630937983,680,2939945632.0595465,20720,0,0
+080202,Using other financial services,ai_exposed,1,2003,0.17566617319024175,51,280384522.01719403,20720,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2003,0.014431551492512554,6,42373014.687190995,20720,0,0
+080301,Using legal services,ai_exposed,1,2003,0.03298998760798813,14,62245950.72766401,20720,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2003,0.0,0,0.0,20720,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2003,2.6250062850757474,533,2665478574.4320397,20720,0,0
+080402,Using in-home health and care services,ai_exposed,1,2003,0.024442674201551422,9,32461318.059249,20720,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2003,0.016917469678625247,7,34688517.613982,20720,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2003,0.06829641305703846,37,210276904.58862597,20720,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2003,0.0,0,0.0,20720,0,0
+020101,Interior cleaning,low_exposure_physical,0,2004,21.1181121297736,3764,20048276547.683983,13973,0,0
+020102,Laundry,low_exposure_physical,0,2004,11.083055245135622,2672,14277481287.692438,13973,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2004,1.704687591135975,202,1083892966.6281772,13973,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2004,1.5367418110959916,1264,6359231629.462256,13973,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2004,23.065612095116013,7061,39093131928.03061,13973,0,0
+020202,Food presentation,low_exposure_physical,0,2004,0.2929848633677069,237,1464213632.2659602,13973,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2004,7.582327904094172,3392,18714799409.255722,13973,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2004,5.459804153039548,474,2493148912.397602,13973,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2004,0.5204378408007425,63,340543428.81503505,13973,0,0
+020303,Heating and cooling,low_exposure_physical,0,2004,0.5369309125620398,143,775908071.1675601,13973,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2004,1.8171575524446142,313,1616649878.5715232,13973,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2004,1.8252773598575198,193,957581973.844362,13973,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2004,11.584532845172934,1441,8191343507.205982,13973,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2004,0.20756319640302348,59,299214544.4068549,13973,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2004,0.003933133172775632,2,5815640.287464,13973,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2004,4.396509811431352,1826,10708106976.6175,13973,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2004,3.251164564241564,424,2665115797.956765,13973,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2004,1.2196882924513943,217,1137774160.444552,13973,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2004,0.0010242945813538269,2,3972735.0286830002,13973,0,0
+020901,Financial management,ai_exposed,1,2004,2.386877586129197,674,3897465335.2675114,13973,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2004,5.8097807576668075,1746,9848632996.838165,13973,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2004,1.7304276961681981,1072,6401027278.551933,13973,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2004,1.970355111479951,762,4601884379.4022255,13973,0,0
+030201,Homework (hh children),ai_exposed,1,2004,1.8128009999722519,460,2682236517.574528,13973,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2004,7.839298846064187,515,4028112390.018497,13973,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2004,0.4205332369356371,61,318505594.21664596,13973,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2004,0.20212200257227803,17,205664904.878191,13973,0,0
+080201,Banking,ai_exposed,1,2004,0.41874386589361773,433,2826144707.40564,13973,0,0
+080202,Using other financial services,ai_exposed,1,2004,0.15684836763787052,35,254221137.48727402,13973,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2004,0.0,0,0.0,13973,0,0
+080301,Using legal services,ai_exposed,1,2004,0.05070579136436536,6,43480709.058808,13973,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2004,0.0,0,0.0,13973,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2004,2.413167519038662,388,2753625251.44299,13973,0,0
+080402,Using in-home health and care services,ai_exposed,1,2004,0.09165167070783688,14,93907437.03370799,13973,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2004,0.04192832992418582,2,22308621.260375,13973,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2004,0.08721969400704582,28,195922759.31946597,13973,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2004,0.0018797623957147892,2,10356185.294706,13973,0,0
+020101,Interior cleaning,low_exposure_physical,0,2005,22.70504540487135,3717,20976781885.119164,13038,0,0
+020102,Laundry,low_exposure_physical,0,2005,10.708563547077596,2482,14123529481.655704,13038,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2005,2.034864639029836,183,1165306345.3331933,13038,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2005,1.2211326250247976,923,5244353201.396067,13038,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2005,23.157857545647758,6690,40420496884.56316,13038,0,0
+020202,Food presentation,low_exposure_physical,0,2005,0.3436051029944275,296,1773225426.242523,13038,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2005,7.2440567939042495,3143,18649827828.47986,13038,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2005,4.284051867019669,363,2154753492.854577,13038,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2005,0.45838959808572355,46,293767161.506354,13038,0,0
+020303,Heating and cooling,low_exposure_physical,0,2005,0.5394805195207665,119,761324815.5401729,13038,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2005,1.8984697415454435,302,1826239454.677237,13038,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2005,2.3639481342485666,157,975647074.9767071,13038,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2005,11.840412214838805,1422,8528336809.183314,13038,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2005,0.2292921309770755,60,307818718.71841097,13038,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2005,0.0011107379678583118,1,6227984.134618,13038,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2005,5.212343966963008,1775,11492959309.199741,13038,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2005,2.611559245215386,356,2132486401.5861282,13038,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2005,1.333159842202968,245,1485555163.735285,13038,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2005,0.0,0,0.0,13038,0,0
+020901,Financial management,ai_exposed,1,2005,2.2030096423712062,587,3663356061.715105,13038,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2005,6.4102548917284015,1917,11407797418.566402,13038,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2005,1.6922209477809513,982,6364798787.290222,13038,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2005,2.3027182266683686,761,5302503284.520903,13038,0,0
+030201,Homework (hh children),ai_exposed,1,2005,1.8456670757630256,523,2855739847.730889,13038,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2005,8.11968230505961,456,4081613520.591639,13038,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2005,0.23859053768895414,42,252976841.529162,13038,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2005,0.0649077591070612,10,68861369.489711,13038,0,0
+080201,Banking,ai_exposed,1,2005,0.4576164401027093,389,2891772837.993308,13038,0,0
+080202,Using other financial services,ai_exposed,1,2005,0.07578104733160575,18,111076515.716375,13038,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2005,0.00020853958228596667,1,3507887.316811,13038,0,0
+080301,Using legal services,ai_exposed,1,2005,0.046407225849096484,10,57746906.64217201,13038,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2005,0.0,0,0.0,13038,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2005,2.302049653264871,324,2701944214.790993,13038,0,0
+080402,Using in-home health and care services,ai_exposed,1,2005,0.005047194144208836,4,13436021.37573,13038,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2005,0.003651791130811569,3,19061500.219996,13038,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2005,0.06938817386762607,27,208124090.967467,13038,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2005,0.0053864904617162215,5,22450041.65132,13038,0,0
+020101,Interior cleaning,low_exposure_physical,0,2006,22.768695352771005,3754,21414684271.50267,12943,0,0
+020102,Laundry,low_exposure_physical,0,2006,10.86818902821621,2458,14123546140.190838,12943,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2006,1.8967198237296459,183,1092105069.7795968,12943,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2006,1.0187718065702474,775,4230005657.9838533,12943,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2006,23.84613445341769,6736,40585140162.49551,12943,0,0
+020202,Food presentation,low_exposure_physical,0,2006,0.2875962303292136,249,1566842426.1115232,12943,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2006,7.575085938480022,3124,18584605676.154907,12943,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2006,3.8333120208847826,357,2167740617.132895,12943,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2006,0.5030333507986015,47,301609537.31617904,12943,0,0
+020303,Heating and cooling,low_exposure_physical,0,2006,0.5048734805656633,119,754146499.039001,12943,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2006,1.5349064538990114,266,1638690867.7243872,12943,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2006,1.548467529383464,136,904500953.797396,12943,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2006,11.620424848968185,1360,8611964558.19777,12943,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2006,0.23220798284588726,47,269456948.869672,12943,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2006,0.0036085351104749035,2,6524021.413905,12943,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2006,5.179690365621575,1709,11371217206.201536,12943,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2006,2.873724915534425,372,2542171182.593658,12943,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2006,1.17963368181105,208,1279177762.8820548,12943,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2006,0.0008335234359405686,2,9357499.10467,12943,0,0
+020901,Financial management,ai_exposed,1,2006,1.7905750801866023,549,3233015643.677504,12943,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2006,5.630332271767192,2000,12319620270.743853,12943,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2006,1.364208809572017,944,6284180318.451392,12943,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2006,2.879079430104059,912,6613614786.633423,12943,0,0
+030201,Homework (hh children),ai_exposed,1,2006,1.6987505280775284,493,2764191698.509698,12943,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2006,8.210618345250463,522,4766694995.034773,12943,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2006,0.5008079950708976,60,362610395.030168,12943,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2006,0.03300083441590643,4,36878373.061829,12943,0,0
+080201,Banking,ai_exposed,1,2006,0.2981458691137926,344,2327815742.316143,12943,0,0
+080202,Using other financial services,ai_exposed,1,2006,0.13091207003077643,23,188985742.51792794,12943,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2006,0.000318320286852785,1,5417154.021938,12943,0,0
+080301,Using legal services,ai_exposed,1,2006,0.09833049425879142,11,90545739.35462,12943,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2006,0.0,0,0.0,12943,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2006,2.4327525173371987,337,2968263514.400288,12943,0,0
+080402,Using in-home health and care services,ai_exposed,1,2006,0.019083622446298732,7,36538748.026916,12943,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2006,0.016509239024894113,2,21294470.701437,12943,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2006,0.13251784189883306,35,256811886.80387703,12943,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2006,0.01729646250366849,3,28054880.088456,12943,0,0
+020101,Interior cleaning,low_exposure_physical,0,2007,24.3338581355791,3447,21716065164.5865,12248,0,0
+020102,Laundry,low_exposure_physical,0,2007,11.011014699461462,2255,13949625006.80236,12248,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2007,1.9506663177888812,143,1078427536.2741542,12248,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2007,0.997042259107198,706,4070871600.761941,12248,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2007,23.566932579104005,6142,40089196169.827225,12248,0,0
+020202,Food presentation,low_exposure_physical,0,2007,0.31278475953376356,228,1608541101.085929,12248,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2007,7.151307859391855,2770,17976290830.371216,12248,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2007,4.254937644952521,332,2274425096.753378,12248,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2007,0.20705052732744694,26,190623953.523445,12248,0,0
+020303,Heating and cooling,low_exposure_physical,0,2007,0.5905334979535583,112,787689418.932613,12248,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2007,1.6888784792526872,238,1452749234.250086,12248,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2007,1.7991619200379931,137,954407504.282288,12248,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2007,12.139554460354509,1214,8674346580.616985,12248,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2007,0.24838290141815703,58,383911259.87345904,12248,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2007,0.0,0,0.0,12248,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2007,5.650051770380912,1703,12197756888.087029,12248,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2007,2.1294439915686683,300,2226891450.517881,12248,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2007,1.0551133576818084,195,1260149278.4713478,12248,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2007,0.0061041200840502765,8,83116646.30818701,12248,0,0
+020901,Financial management,ai_exposed,1,2007,2.068834682763672,517,3490880700.975912,12248,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2007,6.272390550703047,1865,12258748509.231188,12248,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2007,1.4628210625205391,795,5712094385.755573,12248,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2007,3.065393750297667,946,6976208468.398593,12248,0,0
+030201,Homework (hh children),ai_exposed,1,2007,1.658852551560541,421,2743491994.009058,12248,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2007,7.870658600710883,493,4325152155.993612,12248,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2007,0.15319088864133285,26,205928449.152873,12248,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2007,0.11041290190355449,6,97003536.869019,12248,0,0
+080201,Banking,ai_exposed,1,2007,0.37215165883317197,342,2676856762.816787,12248,0,0
+080202,Using other financial services,ai_exposed,1,2007,0.16814586334375053,26,298040721.683757,12248,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2007,0.0,0,0.0,12248,0,0
+080301,Using legal services,ai_exposed,1,2007,0.009627161815797336,4,35444698.934291005,12248,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2007,0.0,0,0.0,12248,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2007,2.515716709635912,313,2671134243.0322485,12248,0,0
+080402,Using in-home health and care services,ai_exposed,1,2007,0.01722755972896543,5,30665287.259869,12248,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2007,0.0011876625582261135,1,5117555.515272,12248,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2007,0.1145111752727258,26,177610388.762624,12248,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2007,0.002725302545064681,2,15657519.299771,12248,0,0
+020101,Interior cleaning,low_exposure_physical,0,2008,22.01489502571711,3496,21330869864.410736,12723,0,0
+020102,Laundry,low_exposure_physical,0,2008,10.280492592194626,2349,14078992113.246998,12723,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2008,1.4373081108563976,131,789623561.747555,12723,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2008,1.059413592267483,753,4346947229.803036,12723,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2008,24.1077182033765,6746,42938134904.25873,12723,0,0
+020202,Food presentation,low_exposure_physical,0,2008,0.2632103825798388,224,1540225468.7090669,12723,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2008,6.995503873194962,2893,18161762483.963173,12723,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2008,3.259545469646049,276,1714728310.2547119,12723,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2008,0.1933123549433153,29,167746764.70130402,12723,0,0
+020303,Heating and cooling,low_exposure_physical,0,2008,0.5560611347055087,120,782380903.740486,12723,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2008,1.5812295675219497,241,1556064901.586996,12723,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2008,1.7546455782086903,144,879748646.857599,12723,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2008,11.039991842925376,1245,7958906912.222488,12723,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2008,0.24818855274685422,50,305456256.34513396,12723,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2008,0.0,0,0.0,12723,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2008,5.470416611477608,1732,12604820629.079344,12723,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2008,2.3809740811052573,336,2326812024.1365232,12723,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2008,0.7635917566153247,160,1047830294.095252,12723,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2008,0.0009295618890083854,2,14027645.313605001,12723,0,0
+020901,Financial management,ai_exposed,1,2008,2.004613567762019,506,3527270229.0625467,12723,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2008,5.472987465688413,1942,12243429833.720146,12723,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2008,1.3354887635132446,821,5969463489.089157,12723,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2008,3.5834249155219124,1164,8218935402.656037,12723,0,0
+030201,Homework (hh children),ai_exposed,1,2008,1.7218537936828244,483,2999008135.101677,12723,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2008,9.092829946604017,479,4834790757.955185,12723,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2008,0.269065596975072,29,175058224.01171598,12723,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2008,0.18840155936808547,5,85850538.71866,12723,0,0
+080201,Banking,ai_exposed,1,2008,0.32590854020971854,335,2635345551.37667,12723,0,0
+080202,Using other financial services,ai_exposed,1,2008,0.12038425335689461,25,200371747.240215,12723,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2008,0.0,0,0.0,12723,0,0
+080301,Using legal services,ai_exposed,1,2008,0.05608393289851678,8,107438906.959979,12723,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2008,0.0,0,0.0,12723,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2008,2.323426584684359,350,2990906111.192668,12723,0,0
+080402,Using in-home health and care services,ai_exposed,1,2008,0.09180681728859232,16,148872066.134919,12723,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2008,0.0,0,0.0,12723,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2008,0.06147635191196031,30,259161264.394979,12723,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2008,0.012951351859805641,2,12179997.713578,12723,0,0
+020101,Interior cleaning,low_exposure_physical,0,2009,23.800193133721294,3742,22085165438.624363,13133,0,0
+020102,Laundry,low_exposure_physical,0,2009,9.528045375318428,2335,13742368938.133844,13133,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2009,1.4542740504968221,135,748291367.9049959,13133,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2009,1.1418232679692744,830,4868508205.109167,13133,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2009,24.80214294691834,7102,44333285960.00403,13133,0,0
+020202,Food presentation,low_exposure_physical,0,2009,0.22643649794019635,224,1523568777.552168,13133,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2009,7.314877665083255,3081,19341788155.019894,13133,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2009,3.9814805867035545,317,2010319699.790159,13133,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2009,0.190134073815385,22,113137333.352702,13133,0,0
+020303,Heating and cooling,low_exposure_physical,0,2009,0.5300828700854123,106,716706517.393663,13133,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2009,1.704904392006474,260,1708346437.183888,13133,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2009,1.6412096431292342,152,1020235628.948704,13133,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2009,11.649004781286958,1241,7978364050.577147,13133,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2009,0.2280171257622824,43,363889692.111346,13133,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2009,0.0,0,0.0,13133,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2009,5.52460602304702,1893,12999107915.502151,13133,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2009,2.2379374252803332,315,2175199654.6972494,13133,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2009,1.0664422138605534,198,1328134802.5886528,13133,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2009,0.0004900484776785811,3,14624605.812378999,13133,0,0
+020901,Financial management,ai_exposed,1,2009,2.1179320702130853,592,3708062666.941184,13133,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2009,5.766950144565003,2025,13081467395.906958,13133,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2009,1.2441204679089293,827,5386038333.796556,13133,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2009,3.4788500317500173,1197,8242020336.861429,13133,0,0
+030201,Homework (hh children),ai_exposed,1,2009,1.692703286725398,486,2839895303.2021136,13133,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2009,9.373297654024444,518,4788533415.516707,13133,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2009,0.17040771811293673,20,156576521.912481,13133,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2009,0.010571628460593074,4,16084646.009392,13133,0,0
+080201,Banking,ai_exposed,1,2009,0.41512284252930676,351,2621253805.5532265,13133,0,0
+080202,Using other financial services,ai_exposed,1,2009,0.18108820423972719,27,257651835.03151402,13133,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2009,0.0,0,0.0,13133,0,0
+080301,Using legal services,ai_exposed,1,2009,0.02074276949307788,6,49795559.242424,13133,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2009,0.0,0,0.0,13133,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2009,2.558655268555768,353,2990110138.801568,13133,0,0
+080402,Using in-home health and care services,ai_exposed,1,2009,0.047532821375594204,13,71276546.144284,13133,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2009,0.1889439743891166,2,39707720.370275,13133,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2009,0.04088689319537334,19,118865994.10577,13133,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2009,0.005606634019173206,1,16364426.447703,13133,0,0
+020101,Interior cleaning,low_exposure_physical,0,2010,21.72476903411456,3420,20575463897.012993,13260,0,0
+020102,Laundry,low_exposure_physical,0,2010,10.36180862866996,2265,13479155199.32639,13260,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2010,1.2405037358794349,115,700593423.627872,13260,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2010,1.0868964426686762,818,4731282449.806654,13260,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2010,26.355674971763627,7362,45683650706.39008,13260,0,0
+020202,Food presentation,low_exposure_physical,0,2010,0.2603924084721213,238,1540128793.8919878,13260,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2010,6.941552594576575,2984,18139724567.528736,13260,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2010,3.143253329777881,277,1882096040.7980938,13260,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2010,0.30207464621038527,22,148485001.42781702,13260,0,0
+020303,Heating and cooling,low_exposure_physical,0,2010,0.5167478588342131,101,668207981.157089,13260,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2010,2.0297736703374323,293,2034504352.453004,13260,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2010,1.340184339691632,118,731995213.3256768,13260,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2010,12.47334193623399,1303,8548596328.470788,13260,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2010,0.22739662779724384,35,205852974.209518,13260,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2010,0.0008201742155644451,1,2414002.921511,13260,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2010,5.669866112651029,1827,12675303230.335155,13260,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2010,2.5738745886834606,314,2169095018.004927,13260,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2010,1.3224473510546797,202,1404566827.6979918,13260,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2010,4.857365083293955e-05,1,4288976.639133,13260,0,0
+020901,Financial management,ai_exposed,1,2010,1.8404245939186528,522,3449929455.159832,13260,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2010,5.473217197246193,1963,12674941411.771557,13260,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2010,1.1970422684103568,745,5086920519.580502,13260,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2010,2.9069999075895714,949,6701447217.929504,13260,0,0
+030201,Homework (hh children),ai_exposed,1,2010,1.7227302951226935,465,2735753486.828315,13260,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2010,9.276871930076748,550,5048809269.638794,13260,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2010,0.21721397135467263,22,157583441.95469102,13260,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2010,0.03934636350569867,2,36349747.836455,13260,0,0
+080201,Banking,ai_exposed,1,2010,0.35624068704373935,323,2283053794.514912,13260,0,0
+080202,Using other financial services,ai_exposed,1,2010,0.048815963463637015,16,119280717.28885901,13260,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2010,0.0003373839755087257,1,14895236.044245,13260,0,0
+080301,Using legal services,ai_exposed,1,2010,0.06508238042401401,11,108153889.05127701,13260,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2010,0.0,0,0.0,13260,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2010,2.492954037430839,356,2873664128.0897317,13260,0,0
+080402,Using in-home health and care services,ai_exposed,1,2010,0.091992176660046,13,83766158.552712,13260,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2010,0.0,0,0.0,13260,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2010,0.08447298890687097,27,234042758.765676,13260,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2010,0.0,0,0.0,13260,0,0
+020101,Interior cleaning,low_exposure_physical,0,2011,22.774389460774138,3192,20074436409.029842,12479,0,0
+020102,Laundry,low_exposure_physical,0,2011,9.488303205582111,2095,12969107568.427898,12479,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2011,1.2889878933541026,102,680348939.822492,12479,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2011,1.1539852438069358,756,4874358831.620865,12479,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2011,26.08368841739397,6693,44557411241.157,12479,0,0
+020202,Food presentation,low_exposure_physical,0,2011,0.23870359989567164,206,1393302436.7018058,12479,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2011,7.060595431680884,2691,17861306669.7465,12479,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2011,2.794543741249293,250,1570548342.919327,12479,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2011,0.32619938108676094,25,150660066.889106,12479,0,0
+020303,Heating and cooling,low_exposure_physical,0,2011,0.557493337106283,105,739717604.430519,12479,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2011,1.6535853035180121,249,1613119526.0911021,12479,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2011,2.0697677757085913,123,930497316.4717108,12479,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2011,11.374136166839302,1190,7909098507.438123,12479,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2011,0.19010094736639582,37,282875400.640674,12479,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2011,0.0003823381626215035,1,2266824.064333,12479,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2011,5.357740813998403,1761,12449028462.080828,12479,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2011,2.591787123295268,281,2040135574.1537569,12479,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2011,1.0553464504263603,164,1140559528.383452,12479,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2011,0.0,0,0.0,12479,0,0
+020901,Financial management,ai_exposed,1,2011,1.5622479135990506,441,2894322825.2699337,12479,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2011,5.647666224312718,1757,11766307078.477947,12479,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2011,0.9207672633322844,624,4417623865.952854,12479,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2011,2.456969029181306,771,5647224892.583223,12479,0,0
+030201,Homework (hh children),ai_exposed,1,2011,1.9097035170083434,440,3033819654.370109,12479,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2011,8.880846919747198,480,4928521539.750113,12479,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2011,0.12554820788804788,15,114689609.112223,12479,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2011,0.0069559651583291394,2,23728168.087117,12479,0,0
+080201,Banking,ai_exposed,1,2011,0.28664224779929925,286,2165974524.785329,12479,0,0
+080202,Using other financial services,ai_exposed,1,2011,0.07677700155333897,14,126890379.361668,12479,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2011,0.006470562306656254,1,7193056.327705,12479,0,0
+080301,Using legal services,ai_exposed,1,2011,0.02762356996343776,4,37836667.348858,12479,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2011,0.0,0,0.0,12479,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2011,2.1300353977384563,310,2416122337.621935,12479,0,0
+080402,Using in-home health and care services,ai_exposed,1,2011,0.053016049518233695,11,78866763.776589,12479,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2011,0.001854628294278909,2,6769744.343976,12479,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2011,0.09050432526778587,25,225747442.66623402,12479,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2011,0.02948315886777489,4,24537595.942236,12479,0,0
+020101,Interior cleaning,low_exposure_physical,0,2012,23.573683250295776,3335,21744441951.79158,12443,0,0
+020102,Laundry,low_exposure_physical,0,2012,10.004587194426856,2168,13573663076.174908,12443,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2012,1.1415972284579705,110,666976994.694376,12443,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2012,1.2739980990390778,742,4500951631.608328,12443,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2012,24.97464718658445,6584,44551730674.48391,12443,0,0
+020202,Food presentation,low_exposure_physical,0,2012,0.2955340865832625,192,1448403058.343013,12443,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2012,6.330838895188975,2537,17133969483.73259,12443,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2012,2.813175173307581,274,1592240925.4973998,12443,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2012,0.11497916039344461,21,123304340.82555401,12443,0,0
+020303,Heating and cooling,low_exposure_physical,0,2012,0.5129961926639436,87,560932565.9156749,12443,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2012,1.868878690694195,221,1497052645.1640708,12443,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2012,1.4005648128341075,95,800501096.772057,12443,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2012,10.737524404740823,1228,8632251781.917408,12443,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2012,0.222591917478544,42,346269233.43043196,12443,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2012,0.0,0,0.0,12443,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2012,5.907741631597771,1818,13704034788.8107,12443,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2012,2.109156924913857,284,1765293707.268537,12443,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2012,0.827293762639379,171,1184390869.97509,12443,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2012,0.0,0,0.0,12443,0,0
+020901,Financial management,ai_exposed,1,2012,1.6661853550613182,427,3168768144.921402,12443,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2012,5.87017807146562,1720,11685488855.878002,12443,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2012,1.058151934966921,648,4328914766.043224,12443,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2012,1.9086699646226242,680,4862849100.542738,12443,0,0
+030201,Homework (hh children),ai_exposed,1,2012,1.8095527437298264,441,2860490462.8120933,12443,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2012,9.80799936381608,470,5296663320.496206,12443,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2012,0.15664676081727041,18,132657224.309739,12443,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2012,0.20227518809386108,7,143957511.028392,12443,0,0
+080201,Banking,ai_exposed,1,2012,0.3727682414416425,252,1933361441.8035688,12443,0,0
+080202,Using other financial services,ai_exposed,1,2012,0.07860454136842933,20,177578628.48430502,12443,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2012,0.0,0,0.0,12443,0,0
+080301,Using legal services,ai_exposed,1,2012,0.03650022777543921,4,40124525.327817,12443,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2012,0.0,0,0.0,12443,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2012,2.605576090128468,318,2837088927.4784408,12443,0,0
+080402,Using in-home health and care services,ai_exposed,1,2012,0.08490741567928774,11,74776421.867695,12443,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2012,0.019361129347529215,3,20922982.715733,12443,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2012,0.20362403981680147,16,213909773.840241,12443,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2012,0.009139947729910145,2,27894521.117132,12443,0,0
+020101,Interior cleaning,low_exposure_physical,0,2013,21.552578602002775,2947,21170383325.226116,11385,0,0
+020102,Laundry,low_exposure_physical,0,2013,10.064004502426208,1937,13795850623.247654,11385,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2013,1.492915405215335,133,883933583.1414449,11385,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2013,1.2991306614840816,770,5177354713.9746065,11385,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2013,26.999339664044935,6192,46944813392.301636,11385,0,0
+020202,Food presentation,low_exposure_physical,0,2013,0.3442080144254806,210,1749346530.2390661,11385,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2013,7.0096039474518745,2563,19297927649.87196,11385,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2013,2.9606756507908014,224,1852403530.9286542,11385,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2013,0.31768090807545973,29,226473046.367006,11385,0,0
+020303,Heating and cooling,low_exposure_physical,0,2013,0.6003080325899364,91,735173118.8856322,11385,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2013,2.007464874577483,271,2011262665.0324502,11385,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2013,1.0397692356664687,91,645560119.321958,11385,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2013,10.91571302064598,1081,8304104806.146284,11385,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2013,0.12697742753684083,28,236219655.44108298,11385,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2013,0.0006937845421736415,1,3162997.007946,11385,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2013,6.0498969059126555,1741,14108163479.517904,11385,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2013,2.370065926281385,282,2121305665.733633,11385,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2013,1.0563429273989615,152,1120868184.081219,11385,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2013,0.0020961292967799344,1,2123634.225183,11385,0,0
+020901,Financial management,ai_exposed,1,2013,1.7194941786174713,361,2912590437.02625,11385,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2013,5.961602616477766,1652,12833251330.337551,11385,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2013,0.8458582521168894,586,4610456411.483665,11385,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2013,1.9746490859382297,697,5425024621.309973,11385,0,0
+030201,Homework (hh children),ai_exposed,1,2013,2.279293327641098,447,3458728944.169032,11385,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2013,10.530448737313787,425,5147982461.89963,11385,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2013,0.11137064615053405,17,100741903.74111,11385,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2013,0.14682623299081213,4,72001105.418637,11385,0,0
+080201,Banking,ai_exposed,1,2013,0.2561727526061754,214,1867805998.4205728,11385,0,0
+080202,Using other financial services,ai_exposed,1,2013,0.0460565793753899,12,111275929.275995,11385,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2013,0.0,0,0.0,11385,0,0
+080301,Using legal services,ai_exposed,1,2013,0.012461203207574548,3,13932396.906931,11385,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2013,0.0,0,0.0,11385,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2013,2.639194922701831,327,3139521457.340032,11385,0,0
+080402,Using in-home health and care services,ai_exposed,1,2013,0.01929211915066293,7,37760781.495564,11385,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2013,0.004309195017375204,3,12352501.191568,11385,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2013,0.23792147732569596,29,317081928.836124,11385,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2013,0.03006112438724836,6,54861809.301929,11385,0,0
+020101,Interior cleaning,low_exposure_physical,0,2014,20.078114081284117,3033,20974059815.142006,11592,0,0
+020102,Laundry,low_exposure_physical,0,2014,10.335341419912881,2096,14322592664.237976,11592,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2014,1.4608048438699701,131,894709491.6496389,11592,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2014,1.3311267457190705,794,5743235458.141962,11592,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2014,27.21603489418577,6519,48533902780.267624,11592,0,0
+020202,Food presentation,low_exposure_physical,0,2014,0.4583539110967539,266,2206412810.0141487,11592,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2014,7.492800693923755,2768,20976968727.82968,11592,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2014,2.814717589490647,233,1656706371.6819131,11592,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2014,0.46824021303704455,44,327463120.72921205,11592,0,0
+020303,Heating and cooling,low_exposure_physical,0,2014,0.5924129514781884,110,744611521.547107,11592,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2014,1.9206101968833071,266,2078177753.7772102,11592,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2014,1.264047616541777,104,753264091.886873,11592,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2014,10.952265682807047,1137,8246913038.309664,11592,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2014,0.24866249435743906,41,360025882.310402,11592,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2014,0.00013121076661865228,1,2414585.84621,11592,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2014,6.431429253804777,1803,14439631468.892738,11592,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2014,2.8779226284795754,277,2039898873.7823129,11592,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2014,0.910442837868991,140,1020497765.8942891,11592,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2014,0.0,0,0.0,11592,0,0
+020901,Financial management,ai_exposed,1,2014,1.6013268410082027,408,3038567946.8359213,11592,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2014,5.1277073020486155,1628,12273451673.834522,11592,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2014,0.9070990243922917,628,4714266676.412591,11592,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2014,1.748063516537487,677,5124502902.936839,11592,0,0
+030201,Homework (hh children),ai_exposed,1,2014,1.947523618349866,445,3362182189.4024167,11592,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2014,8.287030161287683,406,4668877809.491412,11592,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2014,0.2554702044735771,19,182939450.566186,11592,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2014,0.5065139079518075,7,182299570.918071,11592,0,0
+080201,Banking,ai_exposed,1,2014,0.35927034729173124,246,2119987083.8296213,11592,0,0
+080202,Using other financial services,ai_exposed,1,2014,0.04281113776635266,8,90991544.288223,11592,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2014,0.0,0,0.0,11592,0,0
+080301,Using legal services,ai_exposed,1,2014,0.02219907495090098,3,27499009.962190002,11592,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2014,0.0004168229602141029,1,3835260.040182,11592,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2014,3.013930051365706,337,3491006658.180007,11592,0,0
+080402,Using in-home health and care services,ai_exposed,1,2014,0.05865653031270913,13,107150630.587174,11592,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2014,0.0,0,0.0,11592,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2014,0.05878564464304414,24,183754557.84765399,11592,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2014,0.03340071753638453,3,35111466.45783199,11592,0,0
+020101,Interior cleaning,low_exposure_physical,0,2015,20.12482287595607,2920,21831756908.462646,10905,0,0
+020102,Laundry,low_exposure_physical,0,2015,10.852975712131121,2125,15871100251.878426,10905,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2015,2.1391002016685197,145,1133707977.052369,10905,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2015,1.1770045598468943,798,6124058169.420139,10905,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2015,27.172185385086586,6155,49545003332.20181,10905,0,0
+020202,Food presentation,low_exposure_physical,0,2015,0.5289753897923034,325,2956439931.907342,10905,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2015,8.241786110711525,2667,21161946722.43586,10905,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2015,2.583427222685477,219,1477736561.758565,10905,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2015,0.3272058019090568,34,253871314.08459398,10905,0,0
+020303,Heating and cooling,low_exposure_physical,0,2015,0.899646981739864,92,818242077.3720249,10905,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2015,2.0354455739546498,266,2092806598.2807531,10905,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2015,1.682241320553559,127,959378334.714712,10905,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2015,11.689691871713253,1098,8958615020.920746,10905,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2015,0.12843560607983556,34,261736424.78380102,10905,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2015,0.0,0,0.0,10905,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2015,6.619223268540298,1800,15833285146.845959,10905,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2015,2.2391935640187124,266,2246233272.755113,10905,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2015,1.08668684914557,182,1479359944.433,10905,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2015,0.001470505992905465,1,9125330.070145,10905,0,0
+020901,Financial management,ai_exposed,1,2015,1.5649077056611744,423,3216461068.6291895,10905,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2015,6.2831709691851785,1731,13975720545.774996,10905,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2015,1.3155132167069377,643,5288716170.59729,10905,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2015,1.954624026936046,671,5456398787.820042,10905,0,0
+030201,Homework (hh children),ai_exposed,1,2015,1.7091980326487712,375,2994783132.684352,10905,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2015,9.944190022520079,391,5129086224.442514,10905,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2015,0.2438302434975585,15,136020120.156793,10905,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2015,0.06065844861004378,8,59576984.529477,10905,0,0
+080201,Banking,ai_exposed,1,2015,0.30660059151059665,240,2215314600.9436817,10905,0,0
+080202,Using other financial services,ai_exposed,1,2015,0.057122760536904474,13,121436092.929407,10905,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2015,0.0,0,0.0,10905,0,0
+080301,Using legal services,ai_exposed,1,2015,0.05339564489266044,7,76118844.476777,10905,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2015,0.0,0,0.0,10905,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2015,2.5829009258145517,298,3119305614.018847,10905,0,0
+080402,Using in-home health and care services,ai_exposed,1,2015,0.06784625908500293,12,101673620.799518,10905,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2015,0.0022520534192985477,2,18613938.208192,10905,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2015,0.037451951607802014,12,111391446.465177,10905,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2015,0.013839613986118007,6,70483835.157115,10905,0,0
+020101,Interior cleaning,low_exposure_physical,0,2016,20.687040986224247,2766,22050263498.661,10493,0,0
+020102,Laundry,low_exposure_physical,0,2016,10.790451680201008,2010,16082208564.331009,10493,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2016,1.6787403930228235,138,1175616300.2225761,10493,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2016,1.2681831944736783,747,5711292514.217594,10493,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2016,27.433303991554013,6014,50767034316.34777,10493,0,0
+020202,Food presentation,low_exposure_physical,0,2016,0.4924148143554807,259,2381014474.457231,10493,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2016,7.438661388543523,2541,21113119131.38937,10493,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2016,2.6867253113320637,230,1819012054.320311,10493,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2016,0.34783198063438087,21,176904888.160397,10493,0,0
+020303,Heating and cooling,low_exposure_physical,0,2016,0.32075127455064933,94,817469031.229442,10493,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2016,1.6357793648627648,210,1669148121.9021091,10493,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2016,1.2926850371012433,102,801358193.464075,10493,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2016,11.191812951265673,1121,9533434815.124367,10493,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2016,0.2624757799881308,47,366889454.72551507,10493,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2016,0.0,0,0.0,10493,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2016,7.231925641715249,1812,16521076486.564615,10493,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2016,2.0995417200745576,247,2091389331.8701649,10493,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2016,1.009277422376352,164,1361268257.1090171,10493,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2016,4.9528774631480424e-05,1,2336148.259159,10493,0,0
+020901,Financial management,ai_exposed,1,2016,1.6536665326871178,397,3005801825.903676,10493,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2016,6.519986392951597,1774,15234833287.22617,10493,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2016,1.1380091164513904,599,4862549161.866049,10493,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2016,1.8686524199942807,600,5201649390.942045,10493,0,0
+030201,Homework (hh children),ai_exposed,1,2016,1.8255744158743892,361,3081054210.8828917,10493,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2016,10.277668009212295,382,5515651953.019395,10493,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2016,0.27460869814273775,22,262471831.74878004,10493,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2016,0.16804786994184995,10,102591103.951334,10493,0,0
+080201,Banking,ai_exposed,1,2016,0.25837962922870517,197,1907430800.6333323,10493,0,0
+080202,Using other financial services,ai_exposed,1,2016,0.07216693746690554,19,203175300.538223,10493,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2016,0.006518332734244974,3,37625798.809144005,10493,0,0
+080301,Using legal services,ai_exposed,1,2016,0.04115540393354468,7,54167824.673252,10493,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2016,0.0,0,0.0,10493,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2016,2.604901338301861,308,3339440279.8491993,10493,0,0
+080402,Using in-home health and care services,ai_exposed,1,2016,0.05964218418484719,15,117739895.550677,10493,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2016,0.0015925341165161375,1,15023169.184508,10493,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2016,0.06955820119788003,23,289199609.31052303,10493,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2016,0.05463133963110432,3,37975254.660498,10493,0,0
+020101,Interior cleaning,low_exposure_physical,0,2017,21.034515881521816,2655,21864863715.189926,10223,0,0
+020102,Laundry,low_exposure_physical,0,2017,9.694033396717526,1873,14851546361.786787,10223,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2017,0.9602810174667007,105,719669329.112437,10223,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2017,1.3829051929698142,667,5616656757.502802,10223,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2017,28.161582407945208,5806,51246901987.91647,10223,0,0
+020202,Food presentation,low_exposure_physical,0,2017,0.3512385649706906,240,2249892539.091138,10223,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2017,7.615782930328786,2452,21167579858.54608,10223,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2017,2.7843631603935823,207,1792379454.726443,10223,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2017,0.2724863404118738,29,230493194.943689,10223,0,0
+020303,Heating and cooling,low_exposure_physical,0,2017,0.29531617468369087,71,618657198.901096,10223,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2017,1.4684423228461847,205,1857209195.903706,10223,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2017,1.9264093147967296,123,1047232794.9497191,10223,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2017,10.436511289425766,1033,8774157071.33613,10223,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2017,0.2063059617876651,38,384516373.4979051,10223,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2017,0.015534483315183504,4,33245355.320299,10223,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2017,7.6547227711448285,1683,16644627168.805504,10223,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2017,2.4111056953995127,250,2147797936.3608418,10223,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2017,0.8895919705656113,167,1497827612.1952271,10223,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2017,0.017253453199530946,23,237876554.207366,10223,0,0
+020901,Financial management,ai_exposed,1,2017,1.5186840948660376,366,3085218164.924017,10223,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2017,6.1131053871510534,1656,14538651771.240469,10223,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2017,0.9355012198741034,557,4651372364.276117,10223,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2017,1.6850371043945074,536,4617016644.364534,10223,0,0
+030201,Homework (hh children),ai_exposed,1,2017,1.3464349886516207,283,2464252445.2863092,10223,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2017,9.89791676240943,346,5253474391.91337,10223,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2017,0.26595881151318673,14,197343750.348392,10223,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2017,0.5009411462136659,10,218027296.55763602,10223,0,0
+080201,Banking,ai_exposed,1,2017,0.2903989504846155,173,1624015469.0703099,10223,0,0
+080202,Using other financial services,ai_exposed,1,2017,0.07878131148723856,10,99398817.39017999,10223,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2017,0.0,0,0.0,10223,0,0
+080301,Using legal services,ai_exposed,1,2017,0.058049969644706725,2,91534698.054426,10223,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2017,0.0,0,0.0,10223,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2017,2.618017518849569,294,3359446441.1435804,10223,0,0
+080402,Using in-home health and care services,ai_exposed,1,2017,0.05040665337336727,12,90941337.997906,10223,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2017,0.004341035469282537,3,19992727.370137002,10223,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2017,0.08098306944635969,20,205907110.829985,10223,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2017,0.0020267893941132193,1,7670145.828315,10223,0,0
+020101,Interior cleaning,low_exposure_physical,0,2018,18.456861506384723,2379,21386339394.93817,9593,0,0
+020102,Laundry,low_exposure_physical,0,2018,11.08803795649367,1833,15969269659.537918,9593,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2018,1.6677318033142214,109,866973566.4087399,9593,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2018,1.2989669094480933,680,5705666161.784432,9593,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2018,27.541947993245405,5522,51287773069.67621,9593,0,0
+020202,Food presentation,low_exposure_physical,0,2018,0.3614830268901328,179,2011193873.540781,9593,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2018,7.4577932553511195,2343,21452118970.074947,9593,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2018,2.820304817807326,212,1733957785.162269,9593,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2018,0.36901824575366826,22,251529348.23927695,9593,0,0
+020303,Heating and cooling,low_exposure_physical,0,2018,0.38466911488996813,75,711474825.0282779,9593,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2018,1.4254543910961068,211,1825415612.452334,9593,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2018,1.350602936661032,91,850459797.2827889,9593,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2018,10.558944247438614,917,8224335395.974953,9593,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2018,0.1282601202541887,29,323999353.871465,9593,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2018,0.0,0,0.0,9593,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2018,7.285302200622117,1674,16996749707.331608,9593,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2018,2.0212484069956926,228,1985044060.0640907,9593,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2018,0.8746765752600394,122,946283521.8581461,9593,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2018,0.013947875022912457,12,181005249.754763,9593,0,0
+020901,Financial management,ai_exposed,1,2018,1.5292902466244604,314,2818176959.347911,9593,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2018,6.613862150203247,1543,15113232092.089699,9593,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2018,1.0070239386327522,532,4672488382.440249,9593,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2018,1.5514534444067938,483,4510115889.769178,9593,0,0
+030201,Homework (hh children),ai_exposed,1,2018,1.5400548953006838,242,2513374989.771471,9593,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2018,10.04196010345718,290,5330270956.821014,9593,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2018,0.1671127498767335,15,169772638.71439803,9593,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2018,0.28227328650337413,16,196434391.41550902,9593,0,0
+080201,Banking,ai_exposed,1,2018,0.34749948689840504,154,1584440685.9066238,9593,0,0
+080202,Using other financial services,ai_exposed,1,2018,0.14192426520930723,15,142145799.61607298,9593,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2018,0.01405981044311837,2,22840904.496681,9593,0,0
+080301,Using legal services,ai_exposed,1,2018,0.047850867705487306,4,74911966.642073,9593,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2018,0.002169709365443884,1,10370320.276307,9593,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2018,3.126961804537679,274,3606039960.5928802,9593,0,0
+080402,Using in-home health and care services,ai_exposed,1,2018,0.0496877090582795,10,66013619.638559,9593,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2018,0.003417460182988233,4,21798876.421671003,9593,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2018,0.059625609532652404,14,156066186.49101,9593,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2018,0.04237261109482694,4,54870484.369472995,9593,0,0
+020101,Interior cleaning,low_exposure_physical,0,2019,18.304084925175555,2475,21717283434.328796,9435,0,0
+020102,Laundry,low_exposure_physical,0,2019,10.574438699537591,1762,15931531772.447514,9435,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2019,1.558400264685931,106,938414734.674754,9435,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2019,1.2439361190533877,661,5592282935.145805,9435,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2019,28.01665823195923,5590,53808830181.63197,9435,0,0
+020202,Food presentation,low_exposure_physical,0,2019,0.2548177544694326,151,1583787837.7455258,9435,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2019,7.62929827392823,2339,22074569912.97053,9435,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2019,2.802517000884518,213,1875136356.604075,9435,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2019,0.38017859136604787,26,291101489.83522505,9435,0,0
+020303,Heating and cooling,low_exposure_physical,0,2019,0.45337224456303504,78,752932403.100562,9435,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2019,1.5752284949453923,224,1948258425.8637109,9435,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2019,1.2649454817252481,84,740234500.199018,9435,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2019,10.161208765800232,907,8063175001.614628,9435,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2019,0.24941016939951946,33,392740640.267858,9435,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2019,0.05015595391096693,2,30230298.639612,9435,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2019,7.213756324329651,1705,17486912948.474968,9435,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2019,2.1459633951468775,230,2245424213.844926,9435,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2019,0.8320010201348871,149,1348508815.1814618,9435,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2019,0.004494970335558877,2,12724348.927322999,9435,0,0
+020901,Financial management,ai_exposed,1,2019,1.718407056143893,359,3294174315.379783,9435,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2019,7.025757106932011,1573,14921311991.136805,9435,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2019,1.1078503276158866,546,4979198546.792032,9435,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2019,1.5824624337869437,495,4873547681.1717,9435,0,0
+030201,Homework (hh children),ai_exposed,1,2019,1.176325781499878,241,2475933469.013487,9435,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2019,10.801597031769973,281,5359476885.639553,9435,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2019,0.3479951356077372,20,373211651.9135649,9435,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2019,0.3035992758907323,11,169568972.645816,9435,0,0
+080201,Banking,ai_exposed,1,2019,0.26945793596497797,191,2048839223.8858202,9435,0,0
+080202,Using other financial services,ai_exposed,1,2019,0.07903820005069646,17,150426357.07959098,9435,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2019,0.0,0,0.0,9435,0,0
+080301,Using legal services,ai_exposed,1,2019,0.07032166508549056,6,92342481.937603,9435,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2019,0.0016577524498095973,1,5311840.207435,9435,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2019,2.75058249258885,286,3413604850.49499,9435,0,0
+080402,Using in-home health and care services,ai_exposed,1,2019,0.15015599861616086,14,126332959.00246897,9435,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2019,0.0,0,0.0,9435,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2019,0.11467969927200607,17,217008067.90498897,9435,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2019,0.012453431335653584,2,23302792.435218,9435,0,0
+020101,Interior cleaning,low_exposure_physical,0,2021,21.0690000409192,2408,23069710833.04687,9087,0,0
+020102,Laundry,low_exposure_physical,0,2021,10.408256207291794,1613,15004571413.274998,9087,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2021,1.7134096505954466,101,952001568.5373691,9087,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2021,1.323187214434762,652,6345677113.8855915,9087,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2021,29.89073878250769,5545,56573508945.064865,9087,0,0
+020202,Food presentation,low_exposure_physical,0,2021,0.3053612471114556,147,1609460558.869008,9087,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2021,8.491174216713597,2331,23196911667.726795,9087,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2021,3.0233566955670588,224,2005122294.614749,9087,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2021,0.3777288612209258,23,226411641.071124,9087,0,0
+020303,Heating and cooling,low_exposure_physical,0,2021,0.7086048436732401,96,737151787.0193279,9087,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2021,1.6703785970864278,206,1810250210.9546971,9087,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2021,1.4133592076248158,91,791440196.733768,9087,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2021,12.033393789988736,1035,9675718174.890602,9087,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2021,0.26286716153790324,28,221243024.880373,9087,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2021,0.0,0,0.0,9087,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2021,9.078146868865801,1764,19069284757.09178,9087,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2021,2.260565252860018,239,2191408323.1940036,9087,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2021,0.956564672042623,163,1369487490.848518,9087,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2021,0.0074800165494248805,3,18125773.859438,9087,0,0
+020901,Financial management,ai_exposed,1,2021,1.9549990910348005,292,2859830876.213995,9087,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2021,6.468651398397606,1405,14625178607.04637,9087,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2021,0.8781600125166709,435,3986322515.9515753,9087,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2021,1.8593919178286242,489,4713157495.103345,9087,0,0
+030201,Homework (hh children),ai_exposed,1,2021,0.9371966585283978,146,1588363416.1253128,9087,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2021,11.522499735578739,295,5666256867.162728,9087,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2021,0.19693408915688201,13,165595723.603645,9087,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2021,0.23894141711089417,23,185181359.03908902,9087,0,0
+080201,Banking,ai_exposed,1,2021,0.2076901942841759,128,1545436456.9629269,9087,0,0
+080202,Using other financial services,ai_exposed,1,2021,0.10924192507574255,8,102169397.81236699,9087,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2021,0.0,0,0.0,9087,0,0
+080301,Using legal services,ai_exposed,1,2021,0.011243949154413815,3,47381786.740141004,9087,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2021,0.03031854060239773,1,32661432.081513,9087,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2021,3.0407910680663353,318,3938660030.1176577,9087,0,0
+080402,Using in-home health and care services,ai_exposed,1,2021,0.06111330993914864,10,91462331.238128,9087,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2021,0.017699499827162825,5,62261449.516765,9087,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2021,0.046020060479551886,11,105317879.02788001,9087,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2021,0.00563460605716851,1,2801550.055141,9087,0,0
+020101,Interior cleaning,low_exposure_physical,0,2022,20.952860018539226,2131,22829705661.445347,8136,0,0
+020102,Laundry,low_exposure_physical,0,2022,10.443405711873767,1476,15213663481.944096,8136,0,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2022,1.3225223861662618,90,773957398.892826,8136,0,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2022,1.2081047392215059,546,5860574176.860615,8136,0,0
+020201,Food and drink preparation,low_exposure_physical,0,2022,30.289995019641584,4921,56006402948.26189,8136,0,0
+020202,Food presentation,low_exposure_physical,0,2022,0.38095689168636704,151,1840353144.7090888,8136,0,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2022,8.190586278229253,2048,22666095107.088753,8136,0,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2022,2.7123877324491574,174,1585882998.321471,8136,0,0
+020302,Building and repairing furniture,low_exposure_physical,0,2022,0.19256037991682304,24,190872295.51275396,8136,0,0
+020303,Heating and cooling,low_exposure_physical,0,2022,0.6129514636657241,60,665723676.9796811,8136,0,0
+020401,Exterior cleaning,low_exposure_physical,0,2022,1.4709430914899397,175,1580814389.305974,8136,0,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2022,1.2303889051934844,74,673004943.9877151,8136,0,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2022,10.736308172782323,912,8684642736.568031,8136,0,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2022,0.08004169120219949,20,176096868.40318,8136,0,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2022,0.0,0,0.0,8136,0,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2022,8.765080682802804,1644,18790821931.442795,8136,0,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2022,2.6337648249138317,208,2106274372.946929,8136,0,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2022,0.8255413538880241,123,1156486880.398083,8136,0,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2022,0.0013290591577770551,2,19584917.217237,8136,0,0
+020901,Financial management,ai_exposed,1,2022,1.5559627514295065,296,2815024449.098298,8136,0,0
+020902,Household & personal organization and planning,ai_exposed,1,2022,6.73210132700125,1246,13516032818.100313,8136,0,0
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2022,0.9355953859294637,380,3913603852.502849,8136,0,0
+020904,HH & personal e-mail and messages,ai_exposed,1,2022,1.9999908038338925,453,5004990289.602613,8136,0,0
+030201,Homework (hh children),ai_exposed,1,2022,1.0954395613010905,134,2057587943.715489,8136,0,0
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2022,8.792259617614398,208,4851786853.265509,8136,0,0
+060302,Research/homework for class for pers. interest,ai_exposed,1,2022,0.12995376568834663,21,176276586.92575,8136,0,0
+060399,Research/homework n.e.c.*,ai_exposed,1,2022,0.37034703341598796,14,281686881.864613,8136,0,0
+080201,Banking,ai_exposed,1,2022,0.22364608115344314,115,1384280624.5744808,8136,0,0
+080202,Using other financial services,ai_exposed,1,2022,0.06520291160603664,11,115259571.731033,8136,0,0
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2022,0.0,0,0.0,8136,0,0
+080301,Using legal services,ai_exposed,1,2022,0.017098757024496848,3,32279309.015436,8136,0,0
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2022,0.0,0,0.0,8136,0,0
+080401,Using health and care services outside the home,ai_exposed,1,2022,3.0208242322843053,261,3583712674.020796,8136,0,0
+080402,Using in-home health and care services,ai_exposed,1,2022,0.06307992036355138,9,82844948.718351,8136,0,0
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2022,0.005689839044484919,2,13368717.755141,8136,0,0
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2022,0.10545743536537262,11,191593716.326049,8136,0,0
+100199,"Using government services, n.e.c.*",ai_exposed,1,2022,0.017965324374094132,1,14664760.891989,8136,0,0
+020101,Interior cleaning,low_exposure_physical,0,2023,22.376437799956413,2278,23696368906.38324,8548,1,0
+020102,Laundry,low_exposure_physical,0,2023,10.900364360750396,1575,15449115559.294628,8548,1,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2023,2.0717807265482353,108,1099722737.42762,8548,1,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2023,1.2970548121155632,631,6140912661.460508,8548,1,0
+020201,Food and drink preparation,low_exposure_physical,0,2023,30.529515257090516,5196,57275904591.400894,8548,1,0
+020202,Food presentation,low_exposure_physical,0,2023,0.30220043538777386,159,1733659158.6617308,8548,1,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2023,7.876591517088104,2154,22327239024.41088,8548,1,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2023,3.0112478866638273,193,1858622044.244634,8548,1,0
+020302,Building and repairing furniture,low_exposure_physical,0,2023,0.21418248590354216,16,133694450.72672701,8548,1,0
+020303,Heating and cooling,low_exposure_physical,0,2023,0.20451331769594527,57,419619221.54529905,8548,1,0
+020401,Exterior cleaning,low_exposure_physical,0,2023,1.9125456267072405,188,1577038091.086667,8548,1,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2023,1.5364666187353073,92,808976439.7273768,8548,1,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2023,9.825271607111663,998,8633912364.629478,8548,1,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2023,0.15853895140832286,41,339086713.268903,8548,1,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2023,0.030906022404012454,2,8279009.758230001,8548,1,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2023,8.949898521411443,1881,20190134841.92031,8548,1,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2023,2.1077823079829043,200,2026734249.755248,8548,1,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2023,0.9784296893238509,122,1313567383.478416,8548,1,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2023,0.00016379054663756752,1,16221483.428796,8548,1,0
+020901,Financial management,ai_exposed,1,2023,1.440888889408711,281,2406237140.914943,8548,1,1
+020902,Household & personal organization and planning,ai_exposed,1,2023,6.395010666280907,1266,13319511532.03049,8548,1,1
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2023,0.7270992205672372,391,3716172187.5371146,8548,1,1
+020904,HH & personal e-mail and messages,ai_exposed,1,2023,1.8223897644041362,459,4345739199.568578,8548,1,1
+030201,Homework (hh children),ai_exposed,1,2023,0.935757006098266,134,1841370471.3422937,8548,1,1
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2023,9.029399436244162,205,4906005039.302605,8548,1,1
+060302,Research/homework for class for pers. interest,ai_exposed,1,2023,0.38751781996201445,30,319971081.835947,8548,1,1
+060399,Research/homework n.e.c.*,ai_exposed,1,2023,0.13619933176054222,10,93634599.10014,8548,1,1
+080201,Banking,ai_exposed,1,2023,0.1779973894862027,106,1123461323.4135208,8548,1,1
+080202,Using other financial services,ai_exposed,1,2023,0.09314567770559276,11,183390019.25515297,8548,1,1
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2023,0.010855208957492311,1,14334371.617488,8548,1,1
+080301,Using legal services,ai_exposed,1,2023,0.011617187413814721,4,47148892.276324004,8548,1,1
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2023,0.0,0,0.0,8548,1,1
+080401,Using health and care services outside the home,ai_exposed,1,2023,2.9667040014978965,255,3297160755.085588,8548,1,1
+080402,Using in-home health and care services,ai_exposed,1,2023,0.13568794710833856,10,88954140.765777,8548,1,1
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2023,0.027815854282762464,1,5401619.1634,8548,1,1
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2023,0.048899099882469786,7,139911269.348124,8548,1,1
+100199,"Using government services, n.e.c.*",ai_exposed,1,2023,0.010377873159146202,2,70642831.473287,8548,1,1
+020101,Interior cleaning,low_exposure_physical,0,2024,24.15629442529197,2129,25662745187.756725,7669,1,0
+020102,Laundry,low_exposure_physical,0,2024,9.907595695387398,1358,14994706272.811829,7669,1,0
+020103,"Sewing, repairing, & maintaining textiles",low_exposure_physical,0,2024,1.6680941843192236,109,1051794059.7050921,7669,1,0
+020104,"Storing interior hh items, inc. food",low_exposure_physical,0,2024,1.2980823043895249,583,6347899302.118492,7669,1,0
+020201,Food and drink preparation,low_exposure_physical,0,2024,31.960815113384747,4879,60183940584.48163,7669,1,0
+020202,Food presentation,low_exposure_physical,0,2024,0.25645243102194343,114,1391418432.7224538,7669,1,0
+020203,Kitchen and food clean-up,low_exposure_physical,0,2024,7.837650035185224,1943,22337694003.279213,7669,1,0
+020301,"Interior arrangement, decoration, & repairs",low_exposure_physical,0,2024,2.746697372287042,166,1732888004.5998344,7669,1,0
+020302,Building and repairing furniture,low_exposure_physical,0,2024,0.34613844476809386,23,267187439.76560396,7669,1,0
+020303,Heating and cooling,low_exposure_physical,0,2024,0.8619156256462671,60,689968192.6390009,7669,1,0
+020401,Exterior cleaning,low_exposure_physical,0,2024,1.9485405676912768,142,1520832363.384681,7669,1,0
+020402,"Exterior repair, improvements, & decoration",low_exposure_physical,0,2024,1.758909767042995,79,939957834.9738141,7669,1,0
+020501,"Lawn, garden, and houseplant care",low_exposure_physical,0,2024,11.843493357227542,932,9702340871.683388,7669,1,0
+020502,"Ponds, pools, and hot tubs",low_exposure_physical,0,2024,0.1068718925198203,28,239262048.12287,7669,1,0
+020599,"Lawn and garden, n.e.c.*",low_exposure_physical,0,2024,0.015111069928089277,3,37897525.66603,7669,1,0
+020681,Care for animals and pets (not veterinary care),low_exposure_physical,0,2024,8.851454708323775,1642,20029096263.378475,7669,1,0
+020701,Vehicle repair and maintenance (by self),low_exposure_physical,0,2024,2.018907788404874,172,1906338498.6189613,7669,1,0
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",low_exposure_physical,0,2024,0.9380535396124224,119,1131564760.003888,7669,1,0
+020899,"Appliances and tools, n.e.c.*",low_exposure_physical,0,2024,0.006645893771047881,1,18966615.389581,7669,1,0
+020901,Financial management,ai_exposed,1,2024,1.7054460351028853,248,2667592110.421955,7669,1,1
+020902,Household & personal organization and planning,ai_exposed,1,2024,7.2020990139808285,1269,14882979166.679874,7669,1,1
+020903,HH & personal mail & messages (except e-mail),ai_exposed,1,2024,0.7745632644777802,335,3425702591.017951,7669,1,1
+020904,HH & personal e-mail and messages,ai_exposed,1,2024,1.7812334769162383,454,4712188934.293438,7669,1,1
+030201,Homework (hh children),ai_exposed,1,2024,0.9984576844922024,98,1533614050.4200072,7669,1,1
+060301,"Research/homework for class for degree, certification, or licensure",ai_exposed,1,2024,8.949986350676317,203,5244433159.168152,7669,1,1
+060302,Research/homework for class for pers. interest,ai_exposed,1,2024,0.17530298070043776,15,182127283.001321,7669,1,1
+060399,Research/homework n.e.c.*,ai_exposed,1,2024,0.4095002008029979,19,343170661.07760507,7669,1,1
+080201,Banking,ai_exposed,1,2024,0.2120600316341203,112,1317884740.13724,7669,1,1
+080202,Using other financial services,ai_exposed,1,2024,0.2509487304615316,8,202962179.575533,7669,1,1
+080299,"Using financial services and banking, n.e.c.*",ai_exposed,1,2024,0.007115968462960832,1,23692846.823335,7669,1,1
+080301,Using legal services,ai_exposed,1,2024,0.026312893527017364,4,41757894.005996004,7669,1,1
+080399,"Using legal services, n.e.c.*",ai_exposed,1,2024,0.0,0,0.0,7669,1,1
+080401,Using health and care services outside the home,ai_exposed,1,2024,2.8876780681626575,253,3834407967.165084,7669,1,1
+080402,Using in-home health and care services,ai_exposed,1,2024,0.06127886150500715,5,51300428.498012,7669,1,1
+080499,"Using medical services, n.e.c.*",ai_exposed,1,2024,0.011161958639346924,1,37164101.789795,7669,1,1
+100103,"Obtaining licenses & paying fines, fees, taxes",ai_exposed,1,2024,0.0637644447390786,12,136352113.893714,7669,1,1
+100199,"Using government services, n.e.c.*",ai_exposed,1,2024,0.02580838022526586,2,57017518.317851,7669,1,1

@@ -116,6 +116,31 @@ Simple bundle DiD: -9.02 min/day
 
 This is the easiest version to understand. It is descriptive and has no regression.
 
+## Simple Task-Year DiD
+
+The regression version of the simple check is in:
+
+```text
+docs/simple_task_did/
+scripts/simple_task_did.py
+results/simple_task_did/
+```
+
+Model:
+
+```text
+minutes_task,t = task FE + year FE + beta * AI_exposed_task x Post_t + error
+```
+
+Result:
+
+```text
+beta = -0.479 minutes/day per task
+clustered p = 0.047
+```
+
+Read this as descriptive. The event-study pre-trends are not perfectly flat, so this is not strong causal evidence.
+
 ## Secondary Check
 
 There is also a simpler activity-level DiD check in:
