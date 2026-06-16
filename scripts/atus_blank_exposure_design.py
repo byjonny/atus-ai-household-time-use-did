@@ -68,12 +68,25 @@ def read_header_from_zip(path: Path, member: str) -> list[str]:
             return f.readline().decode("utf-8").strip().split(",")
 
 
+def activity_labels_from_summary_setup() -> dict[str, str]:
+    if not SUM_ZIP.exists():
+        return {}
+    label_re = re.compile(r'label\s+t(\d{6})\s*=\s*"([^"]*)";', re.IGNORECASE)
+    with zipfile.ZipFile(SUM_ZIP) as zf:
+        try:
+            text = zf.read("atussum_0324.sas").decode("latin1")
+        except KeyError:
+            return {}
+    return {code: clean_label(label) for code, label in label_re.findall(text)}
+
+
 def activity_columns(columns: list[str]) -> list[str]:
     return sorted([c for c in columns if re.fullmatch(r"t\d{6}", c)])
 
 
 def activity_labels_from_metadata(activity_codes: list[str]) -> pd.DataFrame:
     labels = {code: "" for code in activity_codes}
+    labels.update({code: text for code, text in activity_labels_from_summary_setup().items() if code in labels})
     if SURVEY_JSON.exists():
         with SURVEY_JSON.open() as f:
             survey = json.load(f)
@@ -84,7 +97,7 @@ def activity_labels_from_metadata(activity_codes: list[str]) -> pd.DataFrame:
         labels.update({
             item["vm"]: clean_label(item["dm"])
             for item in activity_feature["surveyRefData"]
-            if item.get("vm") in labels
+            if item.get("vm") in labels and not labels[item["vm"]]
         })
     return pd.DataFrame({
         "activity_code": list(labels.keys()),

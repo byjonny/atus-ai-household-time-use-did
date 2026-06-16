@@ -1,432 +1,432 @@
 activity_code,activity_text,automation_score,augmentation_score,ai_exposure_score
-010101,,0.05,0.05,0.05
-010102,,0.05,0.05,0.05
-010199,,0.05,0.05,0.05
-010201,,0.05,0.05,0.05
-010299,,0.05,0.05,0.05
-010301,,0.05,0.05,0.05
-010399,,0.05,0.05,0.05
-010401,,0.05,0.05,0.05
-010499,,0.05,0.05,0.05
-010501,,0.05,0.05,0.05
-010599,,0.05,0.05,0.05
-019999,,0.05,0.05,0.05
+010101,Sleeping,0.05,0.05,0.05
+010102,Sleeplessness,0.05,0.05,0.05
+010199,"Sleeping, n.e.c.*",0.05,0.05,0.05
+010201,"Washing, dressing and grooming oneself",0.05,0.05,0.05
+010299,"Grooming, n.e.c.*",0.05,0.05,0.05
+010301,Health-related self care,0.05,0.05,0.05
+010399,"Self care, n.e.c.*",0.05,0.05,0.05
+010401,Personal/Private activities,0.05,0.05,0.05
+010499,"Personal activities, n.e.c.*",0.05,0.05,0.05
+010501,Personal emergencies,0.05,0.05,0.05
+010599,"Personal care emergencies, n.e.c.*",0.05,0.05,0.05
+019999,"Personal care, n.e.c.*",0.05,0.05,0.05
 020101,Interior cleaning,0.05,0.05,0.05
 020102,Laundry,0.05,0.05,0.05
-020103,,0.05,0.05,0.05
-020104,"Storing interior household items, including food",0.05,0.05,0.05
-020199,,0.05,0.05,0.05
+020103,"Sewing, repairing, & maintaining textiles",0.05,0.05,0.05
+020104,"Storing interior hh items, inc. food",0.05,0.05,0.05
+020199,"Housework, n.e.c.*",0.05,0.05,0.05
 020201,Food and drink preparation,0.05,0.05,0.05
-020202,,0.05,0.05,0.05
-020203,Kitchen and food cleanup,0.05,0.05,0.05
-020299,,0.05,0.05,0.05
-020301,,0.05,0.05,0.05
-020302,,0.05,0.05,0.05
-020303,,0.05,0.05,0.05
-020399,,0.05,0.05,0.05
-020401,,0.05,0.05,0.05
-020402,,0.05,0.05,0.05
-020499,,0.05,0.05,0.05
-020501,,0.05,0.05,0.05
-020502,,0.05,0.05,0.05
-020599,,0.05,0.05,0.05
-020681,,0.05,0.05,0.05
-020699,,0.05,0.05,0.05
-020701,,0.05,0.05,0.05
-020799,,0.05,0.05,0.05
-020801,,0.05,0.05,0.05
-020899,,0.05,0.05,0.05
+020202,Food presentation,0.05,0.05,0.05
+020203,Kitchen and food clean-up,0.05,0.05,0.05
+020299,"Food & drink prep, presentation, & clean-up, n.e.c.*",0.05,0.05,0.05
+020301,"Interior arrangement, decoration, & repairs",0.05,0.05,0.05
+020302,Building and repairing furniture,0.05,0.05,0.05
+020303,Heating and cooling,0.05,0.05,0.05
+020399,"Interior maintenance, repair, & decoration, n.e.c.*",0.05,0.05,0.05
+020401,Exterior cleaning,0.05,0.05,0.05
+020402,"Exterior repair, improvements, & decoration",0.05,0.05,0.05
+020499,"Exterior maintenance, repair & decoration, n.e.c.*",0.05,0.05,0.05
+020501,"Lawn, garden, and houseplant care",0.05,0.05,0.05
+020502,"Ponds, pools, and hot tubs",0.05,0.05,0.05
+020599,"Lawn and garden, n.e.c.*",0.05,0.05,0.05
+020681,Care for animals and pets (not veterinary care),0.05,0.05,0.05
+020699,"Pet and animal care, n.e.c.*",0.05,0.05,0.05
+020701,Vehicle repair and maintenance (by self),0.05,0.05,0.05
+020799,"Vehicles, n.e.c.*",0.05,0.05,0.05
+020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)",0.05,0.05,0.05
+020899,"Appliances and tools, n.e.c.*",0.05,0.05,0.05
 020901,Financial management,0.65,0.75,0.705
-020902,Household and personal organization and planning,0.6,0.65,0.628
-020903,Household and personal mail and messages,0.6,0.65,0.628
-020904,Household and personal e-mail and messages,0.6,0.65,0.628
-020905,,0.6,0.65,0.628
-020999,,0.6,0.65,0.628
-029999,,0.05,0.05,0.05
-030101,Physical care for household children,0.05,0.05,0.05
-030102,Reading to/with household children,0.05,0.05,0.05
-030103,"Playing with household children, not sports",0.05,0.05,0.05
-030104,,0.05,0.05,0.05
-030105,,0.05,0.05,0.05
-030108,,0.05,0.05,0.05
-030109,Looking after household children (as a primary activity),0.05,0.05,0.05
-030110,Attending household children's events,0.05,0.05,0.05
-030111,,0.05,0.05,0.05
-030112,,0.05,0.05,0.05
-030186,,0.05,0.05,0.05
-030199,,0.05,0.05,0.05
-030201,Helping household children with homework,0.65,0.8,0.733
-030202,,0.35,0.8,0.598
-030203,,0.35,0.8,0.598
-030204,,0.35,0.8,0.598
-030299,,0.35,0.8,0.598
-030301,,0.05,0.05,0.05
-030302,,0.05,0.05,0.05
-030303,,0.05,0.05,0.05
-030399,,0.05,0.05,0.05
-030401,Physical care for household adults,0.05,0.05,0.05
-030402,,0.05,0.05,0.05
-030403,,0.05,0.05,0.05
-030404,,0.05,0.05,0.05
-030405,,0.05,0.05,0.05
-030499,,0.05,0.05,0.05
-030501,,0.05,0.05,0.05
-030502,,0.05,0.05,0.05
-030503,,0.05,0.05,0.05
-030504,,0.05,0.05,0.05
-030599,,0.05,0.05,0.05
-039999,,0.05,0.05,0.05
-040101,,0.05,0.05,0.05
-040102,,0.05,0.05,0.05
-040103,,0.05,0.05,0.05
-040104,,0.05,0.05,0.05
-040105,,0.05,0.05,0.05
-040108,,0.05,0.05,0.05
-040109,,0.05,0.05,0.05
-040110,,0.05,0.05,0.05
-040111,,0.05,0.05,0.05
-040112,,0.05,0.05,0.05
-040186,,0.05,0.05,0.05
-040199,,0.05,0.05,0.05
-040201,,0.05,0.05,0.05
-040202,,0.05,0.05,0.05
-040203,,0.05,0.05,0.05
-040204,,0.05,0.05,0.05
-040299,,0.05,0.05,0.05
-040301,,0.05,0.05,0.05
-040302,,0.05,0.05,0.05
-040303,,0.05,0.05,0.05
-040399,,0.05,0.05,0.05
-040401,,0.05,0.05,0.05
-040402,,0.05,0.05,0.05
-040403,,0.05,0.05,0.05
-040404,,0.05,0.05,0.05
-040405,,0.05,0.05,0.05
-040499,,0.05,0.05,0.05
-040501,,0.05,0.05,0.05
-040502,,0.05,0.05,0.05
-040503,,0.05,0.05,0.05
-040504,,0.05,0.05,0.05
-040505,,0.05,0.05,0.05
-040506,,0.05,0.05,0.05
-040507,,0.05,0.05,0.05
-040508,,0.05,0.05,0.05
-040599,,0.05,0.05,0.05
-049999,,0.05,0.05,0.05
-050101,,0.05,0.05,0.05
-050102,,0.05,0.05,0.05
-050103,,0.05,0.05,0.05
-050189,,0.05,0.05,0.05
-050201,,0.05,0.05,0.05
-050202,,0.05,0.05,0.05
-050203,,0.05,0.05,0.05
-050204,,0.05,0.05,0.05
-050289,,0.05,0.05,0.05
-050301,,0.05,0.05,0.05
-050302,,0.05,0.05,0.05
-050303,,0.05,0.05,0.05
-050304,,0.05,0.05,0.05
-050389,,0.05,0.05,0.05
-050403,,0.05,0.05,0.05
-050404,,0.05,0.05,0.05
-050405,,0.05,0.05,0.05
-050481,,0.05,0.05,0.05
-050499,,0.05,0.05,0.05
-059999,,0.05,0.05,0.05
+020902,Household & personal organization and planning,0.6,0.65,0.628
+020903,HH & personal mail & messages (except e-mail),0.6,0.65,0.628
+020904,HH & personal e-mail and messages,0.6,0.65,0.628
+020905,Home security,0.6,0.65,0.628
+020999,"Household management, n.e.c.*",0.6,0.65,0.628
+029999,"Household activities, n.e.c.*",0.05,0.05,0.05
+030101,Physical care for hh children,0.05,0.05,0.05
+030102,Reading to/with hh children,0.05,0.05,0.05
+030103,"Playing with hh children, not sports",0.05,0.05,0.05
+030104,Arts and crafts with hh children,0.05,0.05,0.05
+030105,Playing sports with hh children,0.05,0.05,0.05
+030108,Organization & planning for hh children,0.05,0.05,0.05
+030109,Looking after hh children (as a primary activity),0.05,0.05,0.05
+030110,Attending hh children's events,0.05,0.05,0.05
+030111,Waiting for/with hh children,0.05,0.05,0.05
+030112,Picking up/dropping off hh children,0.05,0.05,0.05
+030186,Talking with/listening to hh children,0.05,0.05,0.05
+030199,"Caring for & helping hh children, n.e.c.*",0.05,0.05,0.05
+030201,Homework (hh children),0.65,0.8,0.733
+030202,Meetings and school conferences (hh children),0.35,0.8,0.598
+030203,Home schooling of hh children,0.35,0.8,0.598
+030204,Waiting associated with hh children's education,0.35,0.8,0.598
+030299,"Activities related to hh child's education, n.e.c.*",0.35,0.8,0.598
+030301,Providing medical care to hh children,0.05,0.05,0.05
+030302,Obtaining medical care for hh children,0.05,0.05,0.05
+030303,Waiting associated with hh children's health,0.05,0.05,0.05
+030399,"Activities related to hh child's health, n.e.c.*",0.05,0.05,0.05
+030401,Physical care for hh adults,0.05,0.05,0.05
+030402,Looking after hh adult (as a primary activity),0.05,0.05,0.05
+030403,Providing medical care to hh adult,0.05,0.05,0.05
+030404,Obtaining medical and care services for hh adult,0.05,0.05,0.05
+030405,Waiting associated with caring for household adults,0.05,0.05,0.05
+030499,"Caring for household adults, n.e.c.*",0.05,0.05,0.05
+030501,Helping hh adults,0.05,0.05,0.05
+030502,Organization & planning for hh adults,0.05,0.05,0.05
+030503,Picking up/dropping off hh adult,0.05,0.05,0.05
+030504,Waiting associated with helping hh adults,0.05,0.05,0.05
+030599,"Helping household adults, n.e.c.*",0.05,0.05,0.05
+039999,"Caring for & helping hh members, n.e.c.*",0.05,0.05,0.05
+040101,Physical care for nonhh children,0.05,0.05,0.05
+040102,Reading to/with nonhh children,0.05,0.05,0.05
+040103,"Playing with nonhh children, not sports",0.05,0.05,0.05
+040104,Arts and crafts with nonhh children,0.05,0.05,0.05
+040105,Playing sports with nonhh children,0.05,0.05,0.05
+040108,Organization & planning for nonhh children,0.05,0.05,0.05
+040109,Looking after nonhh children (as primary activity),0.05,0.05,0.05
+040110,Attending nonhh children's events,0.05,0.05,0.05
+040111,Waiting for/with nonhh children,0.05,0.05,0.05
+040112,Dropping off/picking up nonhh children,0.05,0.05,0.05
+040186,Talking with/listening to nonhh children,0.05,0.05,0.05
+040199,"Caring for and helping nonhh children, n.e.c.*",0.05,0.05,0.05
+040201,Homework (nonhh children),0.05,0.05,0.05
+040202,Meetings and school conferences (nonhh children),0.05,0.05,0.05
+040203,Home schooling of nonhh children,0.05,0.05,0.05
+040204,Waiting associated with nonhh children's education,0.05,0.05,0.05
+040299,"Activities related to nonhh child's educ., n.e.c.*",0.05,0.05,0.05
+040301,Providing medical care to nonhh children,0.05,0.05,0.05
+040302,Obtaining medical care for nonhh children,0.05,0.05,0.05
+040303,Waiting associated with nonhh children's health,0.05,0.05,0.05
+040399,"Activities related to nonhh child's health, n.e.c.*",0.05,0.05,0.05
+040401,Physical care for nonhh adults,0.05,0.05,0.05
+040402,Looking after nonhh adult (as a primary activity),0.05,0.05,0.05
+040403,Providing medical care to nonhh adult,0.05,0.05,0.05
+040404,Obtaining medical and care services for nonhh adult,0.05,0.05,0.05
+040405,Waiting associated with caring for nonhh adults,0.05,0.05,0.05
+040499,"Caring for nonhh adults, n.e.c.*",0.05,0.05,0.05
+040501,"Housework, cooking, & shopping assistance for nonhh adults",0.05,0.05,0.05
+040502,House & lawn maintenance & repair assistance for nonhh adults,0.05,0.05,0.05
+040503,Animal & pet care assistance for nonhh adults,0.05,0.05,0.05
+040504,Vehicle & appliance maintenance/repair assistance for nonhh adults,0.05,0.05,0.05
+040505,Financial management assistance for nonhh adults,0.05,0.05,0.05
+040506,Household management & paperwork assistance for nonhh adults,0.05,0.05,0.05
+040507,Picking up/dropping off nonhh adult,0.05,0.05,0.05
+040508,Waiting associated with helping nonhh adults,0.05,0.05,0.05
+040599,"Helping nonhh adults, n.e.c.*",0.05,0.05,0.05
+049999,"Caring for & helping nonhh members, n.e.c.*",0.05,0.05,0.05
+050101,"Work, main job",0.05,0.05,0.05
+050102,"Work, other job(s)",0.05,0.05,0.05
+050103,Security procedures related to work,0.05,0.05,0.05
+050189,"Working, n.e.c.*",0.05,0.05,0.05
+050201,"Socializing, relaxing, and leisure as part of job",0.05,0.05,0.05
+050202,Eating and drinking as part of job,0.05,0.05,0.05
+050203,Sports and exercise as part of job,0.05,0.05,0.05
+050204,Security procedures as part of job,0.05,0.05,0.05
+050289,"Work-related activities, n.e.c.*",0.05,0.05,0.05
+050301,"Income-generating hobbies, crafts, and food",0.05,0.05,0.05
+050302,Income-generating performances,0.05,0.05,0.05
+050303,Income-generating services,0.05,0.05,0.05
+050304,Income-generating rental property activities,0.05,0.05,0.05
+050389,"Other income-generating activities, n.e.c.*",0.05,0.05,0.05
+050403,Job interviewing,0.05,0.05,0.05
+050404,Waiting associated with job search or interview,0.05,0.05,0.05
+050405,Security procedures rel. to job search/interviewing,0.05,0.05,0.05
+050481,Job search activities,0.05,0.05,0.05
+050499,"Job search and Interviewing, n.e.c.*",0.05,0.05,0.05
+059999,"Work and work-related activities, n.e.c.*",0.05,0.05,0.05
 060101,"Taking class for degree, certification, or licensure",0.45,0.6,0.532
-060102,,0.2,0.55,0.393
-060103,,0.2,0.55,0.393
-060104,,0.2,0.55,0.393
-060199,,0.2,0.55,0.393
-060201,,0.05,0.05,0.05
-060202,,0.05,0.05,0.05
-060203,,0.05,0.05,0.05
-060289,,0.05,0.05,0.05
-060301,,0.35,0.8,0.598
-060302,,0.35,0.8,0.598
-060303,,0.35,0.8,0.598
-060399,,0.35,0.8,0.598
-060401,,0.05,0.05,0.05
-060402,,0.05,0.05,0.05
-060403,,0.05,0.05,0.05
-060499,,0.05,0.05,0.05
-069999,,0.05,0.05,0.05
+060102,Taking class for personal interest,0.2,0.55,0.393
+060103,Waiting associated with taking classes,0.2,0.55,0.393
+060104,Security procedures rel. to taking classes,0.2,0.55,0.393
+060199,"Taking class, n.e.c.*",0.2,0.55,0.393
+060201,Extracurricular club activities,0.05,0.05,0.05
+060202,Extracurricular music & performance activities,0.05,0.05,0.05
+060203,Extracurricular student government activities,0.05,0.05,0.05
+060289,"Education-related extracurricular activities, n.e.c.*",0.05,0.05,0.05
+060301,"Research/homework for class for degree, certification, or licensure",0.35,0.8,0.598
+060302,Research/homework for class for pers. interest,0.35,0.8,0.598
+060303,Waiting associated with research/homework,0.35,0.8,0.598
+060399,Research/homework n.e.c.*,0.35,0.8,0.598
+060401,"Administrative activities: class for degree, certification, or licensure",0.05,0.05,0.05
+060402,Administrative activities: class for personal interest,0.05,0.05,0.05
+060403,Waiting associated w/admin. activities (education),0.05,0.05,0.05
+060499,"Administrative for education, n.e.c.*",0.05,0.05,0.05
+069999,"Education, n.e.c.*",0.05,0.05,0.05
 070101,Grocery shopping,0.25,0.35,0.305
-070102,,0.25,0.35,0.305
-070103,,0.25,0.35,0.305
-070104,,0.25,0.35,0.305
-070105,,0.25,0.35,0.305
-070199,,0.25,0.35,0.305
-070201,,0.25,0.35,0.305
-070299,,0.25,0.35,0.305
-070301,,0.25,0.35,0.305
-070399,,0.25,0.35,0.305
-079999,,0.05,0.05,0.05
-080101,,0.25,0.35,0.305
-080102,,0.25,0.35,0.305
-080199,,0.25,0.35,0.305
-080201,,0.6,0.65,0.628
-080202,,0.6,0.65,0.628
-080203,,0.6,0.65,0.628
-080299,,0.6,0.65,0.628
-080301,,0.25,0.35,0.305
-080302,,0.25,0.35,0.305
-080399,,0.25,0.35,0.305
-080401,,0.6,0.65,0.628
-080402,,0.6,0.65,0.628
-080403,,0.6,0.65,0.628
-080499,,0.6,0.65,0.628
-080501,,0.25,0.35,0.305
-080502,,0.25,0.35,0.305
-080599,,0.25,0.35,0.305
-080601,,0.25,0.35,0.305
-080602,,0.25,0.35,0.305
-080699,,0.25,0.35,0.305
-080701,,0.25,0.35,0.305
-080702,,0.25,0.35,0.305
-080799,,0.25,0.35,0.305
-080801,,0.25,0.35,0.305
-080899,,0.25,0.35,0.305
-089999,,0.05,0.05,0.05
-090101,,0.25,0.35,0.305
-090102,,0.25,0.35,0.305
-090103,,0.25,0.35,0.305
-090104,,0.25,0.35,0.305
-090199,,0.25,0.35,0.305
-090201,,0.25,0.35,0.305
-090202,,0.25,0.35,0.305
-090299,,0.25,0.35,0.305
-090301,,0.25,0.35,0.305
-090302,,0.25,0.35,0.305
-090399,,0.25,0.35,0.305
-090401,,0.25,0.35,0.305
-090402,,0.25,0.35,0.305
-090499,,0.25,0.35,0.305
-090501,,0.25,0.35,0.305
-090502,,0.25,0.35,0.305
-090599,,0.25,0.35,0.305
-099999,,0.05,0.05,0.05
-100101,,0.6,0.65,0.628
-100102,,0.6,0.65,0.628
-100103,,0.6,0.65,0.628
-100199,,0.6,0.65,0.628
-100201,,0.25,0.35,0.305
-100299,,0.25,0.35,0.305
-100381,,0.25,0.35,0.305
-100383,,0.25,0.35,0.305
-100399,,0.25,0.35,0.305
-100401,,0.25,0.35,0.305
-100499,,0.25,0.35,0.305
-109999,,0.05,0.05,0.05
-110101,,0.05,0.05,0.05
-110199,,0.05,0.05,0.05
-110281,,0.05,0.05,0.05
-110289,,0.05,0.05,0.05
-119999,,0.05,0.05,0.05
-120101,,0.05,0.05,0.05
-120199,,0.05,0.05,0.05
-120201,,0.05,0.05,0.05
-120202,,0.05,0.05,0.05
-120299,,0.05,0.05,0.05
-120301,Relaxing and thinking,0.05,0.05,0.05
-120302,,0.05,0.05,0.05
-120303,,0.05,0.05,0.05
-120304,,0.05,0.05,0.05
-120305,,0.05,0.05,0.05
-120306,,0.05,0.05,0.05
+070102,Purchasing gas,0.25,0.35,0.305
+070103,Purchasing food (not groceries),0.25,0.35,0.305
+070104,"Shopping, except groceries, food and gas",0.25,0.35,0.305
+070105,Waiting associated with shopping,0.25,0.35,0.305
+070199,"Shopping, n.e.c.*",0.25,0.35,0.305
+070201,Comparison shopping,0.25,0.35,0.305
+070299,"Researching purchases, n.e.c.*",0.25,0.35,0.305
+070301,Security procedures rel. to consumer purchases,0.25,0.35,0.305
+070399,"Security procedures rel. to consumer purchases, n.e.c.*",0.25,0.35,0.305
+079999,"Consumer purchases, n.e.c.*",0.05,0.05,0.05
+080101,Using paid childcare services,0.25,0.35,0.305
+080102,Waiting associated w/purchasing childcare svcs,0.25,0.35,0.305
+080199,"Using paid childcare services, n.e.c.*",0.25,0.35,0.305
+080201,Banking,0.6,0.65,0.628
+080202,Using other financial services,0.6,0.65,0.628
+080203,Waiting associated w/banking/financial services,0.6,0.65,0.628
+080299,"Using financial services and banking, n.e.c.*",0.6,0.65,0.628
+080301,Using legal services,0.25,0.35,0.305
+080302,Waiting associated with legal services,0.25,0.35,0.305
+080399,"Using legal services, n.e.c.*",0.25,0.35,0.305
+080401,Using health and care services outside the home,0.6,0.65,0.628
+080402,Using in-home health and care services,0.6,0.65,0.628
+080403,Waiting associated with medical services,0.6,0.65,0.628
+080499,"Using medical services, n.e.c.*",0.6,0.65,0.628
+080501,Using personal care services,0.25,0.35,0.305
+080502,Waiting associated w/personal care services,0.25,0.35,0.305
+080599,"Using personal care services, n.e.c.*",0.25,0.35,0.305
+080601,Activities rel. to purchasing/selling real estate,0.25,0.35,0.305
+080602,Waiting associated w/purchasing/selling real estate,0.25,0.35,0.305
+080699,"Using real estate services, n.e.c.*",0.25,0.35,0.305
+080701,Using veterinary services,0.25,0.35,0.305
+080702,Waiting associated with veterinary services,0.25,0.35,0.305
+080799,"Using veterinary services, n.e.c.*",0.25,0.35,0.305
+080801,Security procedures rel. to professional/personal svcs.,0.25,0.35,0.305
+080899,Security procedures rel. to professional/personal svcs n.e.c.*,0.25,0.35,0.305
+089999,"Professional and personal services, n.e.c.*",0.05,0.05,0.05
+090101,Using interior cleaning services,0.25,0.35,0.305
+090102,Using meal preparation services,0.25,0.35,0.305
+090103,Using clothing repair and cleaning services,0.25,0.35,0.305
+090104,Waiting associated with using household services,0.25,0.35,0.305
+090199,"Using household services, n.e.c.*",0.25,0.35,0.305
+090201,Using home maint/repair/décor/construction svcs,0.25,0.35,0.305
+090202,Waiting associated w/ home main/repair/décor/constr,0.25,0.35,0.305
+090299,"Using home maint/repair/décor/constr services, n.e.c.*",0.25,0.35,0.305
+090301,Using pet services,0.25,0.35,0.305
+090302,Waiting associated with pet services,0.25,0.35,0.305
+090399,"Using pet services, n.e.c.*",0.25,0.35,0.305
+090401,Using lawn and garden services,0.25,0.35,0.305
+090402,Waiting associated with using lawn & garden services,0.25,0.35,0.305
+090499,"Using lawn and garden services, n.e.c.*",0.25,0.35,0.305
+090501,Using vehicle maintenance or repair services,0.25,0.35,0.305
+090502,Waiting associated with vehicle main. or repair svcs,0.25,0.35,0.305
+090599,"Using vehicle maint. & repair svcs, n.e.c.*",0.25,0.35,0.305
+099999,"Using household services, n.e.c.*",0.05,0.05,0.05
+100101,Using police and fire services,0.6,0.65,0.628
+100102,Using social services,0.6,0.65,0.628
+100103,"Obtaining licenses & paying fines, fees, taxes",0.6,0.65,0.628
+100199,"Using government services, n.e.c.*",0.6,0.65,0.628
+100201,Civic obligations & participation,0.25,0.35,0.305
+100299,"Civic obligations & participation, n.e.c.*",0.25,0.35,0.305
+100381,Waiting associated w/ using government services,0.25,0.35,0.305
+100383,Waiting associated w/civic obligations & participation,0.25,0.35,0.305
+100399,"Waiting assoc. w/govt svcs or civic obligations, n.e.c.*",0.25,0.35,0.305
+100401,Security procedures rel. to govt svcs/civic obligations,0.25,0.35,0.305
+100499,"Security procedures rel. to govt svcs/civic obligations, n.e.c.*",0.25,0.35,0.305
+109999,"Government services, n.e.c.*",0.05,0.05,0.05
+110101,Eating and drinking,0.05,0.05,0.05
+110199,"Eating and drinking, n.e.c.*",0.05,0.05,0.05
+110281,Waiting associated w/eating & drinking,0.05,0.05,0.05
+110289,"Waiting associated with eating & drinking, n.e.c.*",0.05,0.05,0.05
+119999,"Eating and drinking, n.e.c.*",0.05,0.05,0.05
+120101,Socializing and communicating with others,0.05,0.05,0.05
+120199,"Socializing and communicating, n.e.c.*",0.05,0.05,0.05
+120201,Attending or hosting parties/receptions/ceremonies,0.05,0.05,0.05
+120202,Attending meetings for personal interest (not volunteering),0.05,0.05,0.05
+120299,"Attending/hosting social events, n.e.c.*",0.05,0.05,0.05
+120301,"Relaxing, thinking",0.05,0.05,0.05
+120302,Tobacco and drug use,0.05,0.05,0.05
+120303,Television and movies (not religious),0.05,0.05,0.05
+120304,Television (religious),0.05,0.05,0.05
+120305,Listening to the radio,0.05,0.05,0.05
+120306,Listening to/playing music (not radio),0.05,0.05,0.05
 120307,Playing games,0.05,0.05,0.05
-120308,Computer use for leisure (excluding games),0.45,0.6,0.532
-120309,,0.05,0.05,0.05
-120310,,0.05,0.05,0.05
-120311,,0.05,0.05,0.05
+120308,Computer use for leisure (exc. Games),0.45,0.6,0.532
+120309,Arts and crafts as a hobby,0.05,0.05,0.05
+120310,Collecting as a hobby,0.05,0.05,0.05
+120311,"Hobbies, except arts & crafts and collecting",0.05,0.05,0.05
 120312,Reading for personal interest,0.05,0.05,0.05
-120313,,0.05,0.05,0.05
-120399,,0.05,0.05,0.05
-120401,,0.05,0.05,0.05
-120402,,0.05,0.05,0.05
-120403,,0.05,0.05,0.05
-120404,,0.05,0.05,0.05
-120405,,0.05,0.05,0.05
-120499,,0.05,0.05,0.05
-120501,,0.05,0.05,0.05
-120502,,0.05,0.05,0.05
-120503,,0.05,0.05,0.05
-120504,,0.05,0.05,0.05
-120599,,0.05,0.05,0.05
-129999,,0.05,0.05,0.05
-130101,,0.05,0.05,0.05
-130102,,0.05,0.05,0.05
-130103,,0.05,0.05,0.05
-130104,,0.05,0.05,0.05
-130105,,0.05,0.05,0.05
-130106,,0.05,0.05,0.05
-130107,,0.05,0.05,0.05
-130108,,0.05,0.05,0.05
-130109,,0.05,0.05,0.05
-130110,,0.05,0.05,0.05
-130111,,0.05,0.05,0.05
-130112,,0.05,0.05,0.05
-130113,,0.05,0.05,0.05
-130114,,0.05,0.05,0.05
-130115,,0.05,0.05,0.05
-130116,,0.05,0.05,0.05
-130117,,0.05,0.05,0.05
-130118,,0.05,0.05,0.05
-130119,,0.05,0.05,0.05
-130120,,0.05,0.05,0.05
-130121,,0.05,0.05,0.05
-130122,,0.05,0.05,0.05
-130123,,0.05,0.05,0.05
-130124,,0.05,0.05,0.05
-130125,,0.05,0.05,0.05
-130126,,0.05,0.05,0.05
-130127,,0.05,0.05,0.05
-130128,,0.05,0.05,0.05
-130129,,0.05,0.05,0.05
-130130,,0.05,0.05,0.05
+120313,Writing for personal interest,0.05,0.05,0.05
+120399,"Relaxing and leisure, n.e.c.*",0.05,0.05,0.05
+120401,Attending performing arts,0.05,0.05,0.05
+120402,Attending museums,0.05,0.05,0.05
+120403,Attending movies/film,0.05,0.05,0.05
+120404,Attending gambling establishments,0.05,0.05,0.05
+120405,Security procedures rel. to arts & entertainment,0.05,0.05,0.05
+120499,"Arts and entertainment, n.e.c.*",0.05,0.05,0.05
+120501,Waiting assoc. w/socializing & communicating,0.05,0.05,0.05
+120502,Waiting assoc. w/attending/hosting social events,0.05,0.05,0.05
+120503,Waiting associated with relaxing/leisure,0.05,0.05,0.05
+120504,Waiting associated with arts & entertainment,0.05,0.05,0.05
+120599,"Waiting associated with socializing, n.e.c.*",0.05,0.05,0.05
+129999,"Socializing, relaxing, and leisure, n.e.c.*",0.05,0.05,0.05
+130101,Doing aerobics,0.05,0.05,0.05
+130102,Playing baseball,0.05,0.05,0.05
+130103,Playing basketball,0.05,0.05,0.05
+130104,Biking,0.05,0.05,0.05
+130105,Playing billiards,0.05,0.05,0.05
+130106,Boating,0.05,0.05,0.05
+130107,Bowling,0.05,0.05,0.05
+130108,"Climbing, spelunking, caving",0.05,0.05,0.05
+130109,Dancing,0.05,0.05,0.05
+130110,Participating in equestrian sports,0.05,0.05,0.05
+130111,Fencing,0.05,0.05,0.05
+130112,Fishing,0.05,0.05,0.05
+130113,Playing football,0.05,0.05,0.05
+130114,Golfing,0.05,0.05,0.05
+130115,Doing gymnastics,0.05,0.05,0.05
+130116,Hiking,0.05,0.05,0.05
+130117,Playing hockey,0.05,0.05,0.05
+130118,Hunting,0.05,0.05,0.05
+130119,Participating in martial arts,0.05,0.05,0.05
+130120,Playing racquet sports,0.05,0.05,0.05
+130121,Participating in rodeo competitions,0.05,0.05,0.05
+130122,Rollerblading,0.05,0.05,0.05
+130123,Playing rugby,0.05,0.05,0.05
+130124,Running,0.05,0.05,0.05
+130125,"Skiing, ice skating, snowboarding",0.05,0.05,0.05
+130126,Playing soccer,0.05,0.05,0.05
+130127,Softball,0.05,0.05,0.05
+130128,Using cardiovascular equipment,0.05,0.05,0.05
+130129,Vehicle touring/racing,0.05,0.05,0.05
+130130,Playing volleyball,0.05,0.05,0.05
 130131,Walking,0.05,0.05,0.05
-130132,,0.05,0.05,0.05
-130133,,0.05,0.05,0.05
-130134,,0.05,0.05,0.05
-130135,,0.05,0.05,0.05
-130136,,0.05,0.05,0.05
-130199,,0.05,0.05,0.05
-130201,,0.05,0.05,0.05
-130202,,0.05,0.05,0.05
-130203,,0.05,0.05,0.05
-130204,,0.05,0.05,0.05
-130205,,0.05,0.05,0.05
-130206,,0.05,0.05,0.05
-130207,,0.05,0.05,0.05
-130208,,0.05,0.05,0.05
-130209,,0.05,0.05,0.05
-130210,,0.05,0.05,0.05
-130211,,0.05,0.05,0.05
-130212,,0.05,0.05,0.05
-130213,,0.05,0.05,0.05
-130214,,0.05,0.05,0.05
-130215,,0.05,0.05,0.05
-130216,,0.05,0.05,0.05
-130217,,0.05,0.05,0.05
-130218,,0.05,0.05,0.05
-130219,,0.05,0.05,0.05
-130220,,0.05,0.05,0.05
-130221,,0.05,0.05,0.05
-130222,,0.05,0.05,0.05
-130223,,0.05,0.05,0.05
-130224,,0.05,0.05,0.05
-130225,,0.05,0.05,0.05
-130226,,0.05,0.05,0.05
-130227,,0.05,0.05,0.05
-130228,,0.05,0.05,0.05
-130229,,0.05,0.05,0.05
-130230,,0.05,0.05,0.05
-130231,,0.05,0.05,0.05
-130232,,0.05,0.05,0.05
-130299,,0.05,0.05,0.05
-130301,,0.05,0.05,0.05
-130302,,0.05,0.05,0.05
-130399,,0.05,0.05,0.05
-130401,,0.05,0.05,0.05
-130402,,0.05,0.05,0.05
-130499,,0.05,0.05,0.05
-139999,,0.05,0.05,0.05
+130132,Participating in water sports,0.05,0.05,0.05
+130133,Weightlifting/strength training,0.05,0.05,0.05
+130134,"Working out, unspecified",0.05,0.05,0.05
+130135,Wrestling,0.05,0.05,0.05
+130136,Doing yoga,0.05,0.05,0.05
+130199,Playing sports n.e.c.*,0.05,0.05,0.05
+130201,Watching aerobics,0.05,0.05,0.05
+130202,Watching baseball,0.05,0.05,0.05
+130203,Watching basketball,0.05,0.05,0.05
+130204,Watching biking,0.05,0.05,0.05
+130205,Watching billiards,0.05,0.05,0.05
+130206,Watching boating,0.05,0.05,0.05
+130207,Watching bowling,0.05,0.05,0.05
+130208,"Watching climbing, spelunking, caving",0.05,0.05,0.05
+130209,Watching dancing,0.05,0.05,0.05
+130210,Watching equestrian sports,0.05,0.05,0.05
+130211,Watching fencing,0.05,0.05,0.05
+130212,Watching fishing,0.05,0.05,0.05
+130213,Watching football,0.05,0.05,0.05
+130214,Watching golfing,0.05,0.05,0.05
+130215,Watching gymnastics,0.05,0.05,0.05
+130216,Watching hockey,0.05,0.05,0.05
+130217,Watching martial arts,0.05,0.05,0.05
+130218,Watching racquet sports,0.05,0.05,0.05
+130219,Watching rodeo competitions,0.05,0.05,0.05
+130220,Watching rollerblading,0.05,0.05,0.05
+130221,Watching rugby,0.05,0.05,0.05
+130222,Watching running,0.05,0.05,0.05
+130223,"Watching skiing, ice skating, snowboarding",0.05,0.05,0.05
+130224,Watching soccer,0.05,0.05,0.05
+130225,Watching softball,0.05,0.05,0.05
+130226,Watching vehicle touring/racing,0.05,0.05,0.05
+130227,Watching volleyball,0.05,0.05,0.05
+130228,Watching walking,0.05,0.05,0.05
+130229,Watching water sports,0.05,0.05,0.05
+130230,Watching weightlifting/strength training,0.05,0.05,0.05
+130231,"Watching people working out, unspecified",0.05,0.05,0.05
+130232,Watching wrestling,0.05,0.05,0.05
+130299,"Attending sporting events, n.e.c.*",0.05,0.05,0.05
+130301,Waiting related to playing sports or exercising,0.05,0.05,0.05
+130302,Waiting related to attending sporting events,0.05,0.05,0.05
+130399,"Waiting associated with sports, exercise, & recreation, n.e.c.*",0.05,0.05,0.05
+130401,Security related to playing sports or exercising,0.05,0.05,0.05
+130402,Security related to attending sporting events,0.05,0.05,0.05
+130499,"Security related to sports, exercise, & recreation, n.e.c.*",0.05,0.05,0.05
+139999,"Sports, exercise, & recreation, n.e.c.*",0.05,0.05,0.05
 140101,Attending religious services,0.45,0.6,0.532
 140102,Participation in religious practices,0.05,0.05,0.05
-140103,,0.05,0.05,0.05
-140104,,0.05,0.05,0.05
-140105,,0.05,0.05,0.05
-149999,,0.05,0.05,0.05
-150101,,0.05,0.05,0.05
-150102,,0.05,0.05,0.05
-150103,,0.05,0.05,0.05
-150104,,0.05,0.05,0.05
-150105,,0.05,0.05,0.05
-150106,,0.05,0.05,0.05
-150199,,0.05,0.05,0.05
-150201,,0.05,0.05,0.05
-150202,,0.05,0.05,0.05
-150203,,0.05,0.05,0.05
-150204,,0.05,0.05,0.05
-150299,,0.05,0.05,0.05
-150301,,0.05,0.05,0.05
-150302,,0.05,0.05,0.05
-150399,,0.05,0.05,0.05
-150401,,0.05,0.05,0.05
-150402,,0.05,0.05,0.05
-150499,,0.05,0.05,0.05
-150501,,0.05,0.05,0.05
-150599,,0.05,0.05,0.05
-150601,,0.05,0.05,0.05
-150602,,0.05,0.05,0.05
-150699,,0.05,0.05,0.05
-159989,,0.05,0.05,0.05
-160101,,0.6,0.65,0.628
-160102,,0.6,0.65,0.628
-160103,,0.6,0.65,0.628
-160104,,0.6,0.65,0.628
-160105,,0.6,0.65,0.628
-160106,,0.6,0.65,0.628
-160107,,0.6,0.65,0.628
-160108,,0.6,0.65,0.628
-169989,,0.05,0.05,0.05
-180101,,0.05,0.05,0.05
-180199,,0.05,0.05,0.05
-180280,,0.05,0.05,0.05
-180381,,0.05,0.05,0.05
-180382,,0.05,0.05,0.05
-180399,,0.05,0.05,0.05
-180481,,0.05,0.05,0.05
-180482,,0.05,0.05,0.05
-180499,,0.05,0.05,0.05
-180501,,0.05,0.05,0.05
-180502,,0.05,0.05,0.05
-180589,,0.05,0.05,0.05
-180601,,0.05,0.05,0.05
-180682,,0.05,0.05,0.05
-180699,,0.05,0.05,0.05
-180701,,0.05,0.05,0.05
-180782,,0.05,0.05,0.05
-180801,,0.05,0.05,0.05
-180802,,0.05,0.05,0.05
-180803,,0.05,0.05,0.05
-180804,,0.05,0.05,0.05
-180805,,0.05,0.05,0.05
-180806,,0.05,0.05,0.05
-180807,,0.05,0.05,0.05
-180899,,0.05,0.05,0.05
-180901,,0.05,0.05,0.05
-180902,,0.05,0.05,0.05
-180903,,0.05,0.05,0.05
-180904,,0.05,0.05,0.05
-180905,,0.05,0.05,0.05
-180999,,0.05,0.05,0.05
-181002,,0.05,0.05,0.05
-181081,,0.05,0.05,0.05
-181099,,0.05,0.05,0.05
-181101,,0.05,0.05,0.05
-181199,,0.05,0.05,0.05
-181201,,0.05,0.05,0.05
-181202,,0.05,0.05,0.05
-181204,,0.05,0.05,0.05
-181283,,0.05,0.05,0.05
-181299,,0.05,0.05,0.05
-181301,,0.05,0.05,0.05
-181302,,0.05,0.05,0.05
-181399,,0.05,0.05,0.05
-181401,,0.05,0.05,0.05
-181499,,0.05,0.05,0.05
-181501,,0.05,0.05,0.05
-181599,,0.05,0.05,0.05
-181601,,0.05,0.05,0.05
-181699,,0.05,0.05,0.05
-181801,,0.05,0.05,0.05
-181899,,0.05,0.05,0.05
-189999,,0.05,0.05,0.05
-500101,,0.05,0.05,0.05
-500103,,0.05,0.05,0.05
-500104,,0.05,0.05,0.05
-500105,,0.05,0.05,0.05
-500106,,0.05,0.05,0.05
-500107,,0.05,0.05,0.05
-509989,,0.05,0.05,0.05
+140103,Waiting associated w/religious & spiritual activities,0.05,0.05,0.05
+140104,Security procedures rel. to religious & spiritual activities,0.05,0.05,0.05
+140105,Religious education activities,0.05,0.05,0.05
+149999,"Religious and spiritual activities, n.e.c.*",0.05,0.05,0.05
+150101,Computer use,0.05,0.05,0.05
+150102,Organizing and preparing,0.05,0.05,0.05
+150103,Reading,0.05,0.05,0.05
+150104,Telephone calls (except hotline counseling),0.05,0.05,0.05
+150105,Writing,0.05,0.05,0.05
+150106,Fundraising,0.05,0.05,0.05
+150199,"Administrative & support activities, n.e.c.*",0.05,0.05,0.05
+150201,"Food preparation, presentation, clean-up",0.05,0.05,0.05
+150202,Collecting & delivering clothing & other goods,0.05,0.05,0.05
+150203,Providing care,0.05,0.05,0.05
+150204,"Teaching, leading, counseling, mentoring",0.05,0.05,0.05
+150299,"Social service & care activities, n.e.c.*",0.05,0.05,0.05
+150301,"Building houses, wildlife sites, & other structures",0.05,0.05,0.05
+150302,"Indoor & outdoor maintenance, repair, & clean-up",0.05,0.05,0.05
+150399,"Indoor & outdoor maintenance, building & clean-up activities, n.e.c.*",0.05,0.05,0.05
+150401,Performing,0.05,0.05,0.05
+150402,Serving at volunteer events & cultural activities,0.05,0.05,0.05
+150499,"Participating in performance & cultural activities, n.e.c.*",0.05,0.05,0.05
+150501,"Attending meetings, conferences, & training",0.05,0.05,0.05
+150599,"Attending meetings, conferences, & training, n.e.c.*",0.05,0.05,0.05
+150601,Public health activities,0.05,0.05,0.05
+150602,Public safety activities,0.05,0.05,0.05
+150699,"Public health & safety activities, n.e.c.*",0.05,0.05,0.05
+159989,"Volunteer activities, n.e.c.*",0.05,0.05,0.05
+160101,Telephone calls to/from family members,0.6,0.65,0.628
+160102,"Telephone calls to/from friends, neighbors, or acquaintances",0.6,0.65,0.628
+160103,Telephone calls to/from education services providers,0.6,0.65,0.628
+160104,Telephone calls to/from salespeople,0.6,0.65,0.628
+160105,Telephone calls to/from professional or personal care svcs providers,0.6,0.65,0.628
+160106,Telephone calls to/from household services providers,0.6,0.65,0.628
+160107,Telephone calls to/from paid child or adult care providers,0.6,0.65,0.628
+160108,Telephone calls to/from government officials,0.6,0.65,0.628
+169989,"Telephone calls, n.e.c.*",0.05,0.05,0.05
+180101,Travel related to personal care,0.05,0.05,0.05
+180199,"Travel related to personal care, n.e.c.*",0.05,0.05,0.05
+180280,Travel related to household activities,0.05,0.05,0.05
+180381,Travel related to caring for and helping hh children,0.05,0.05,0.05
+180382,Travel related to caring for and helping hh adults,0.05,0.05,0.05
+180399,"Travel rel. to caring for & helping hh members, n.e.c.*",0.05,0.05,0.05
+180481,Travel related to caring for and helping nonhh children,0.05,0.05,0.05
+180482,Travel related to caring for and helping nonhh adults,0.05,0.05,0.05
+180499,"Travel rel. to caring for & helping nonhh members, n.e.c.*",0.05,0.05,0.05
+180501,Travel related to working,0.05,0.05,0.05
+180502,Travel related to work-related activities,0.05,0.05,0.05
+180589,"Travel related to work, n.e.c.*",0.05,0.05,0.05
+180601,Travel related to taking class,0.05,0.05,0.05
+180682,Travel related to education (except taking class),0.05,0.05,0.05
+180699,"Travel related to education, n.e.c.*",0.05,0.05,0.05
+180701,Travel related to grocery shopping,0.05,0.05,0.05
+180782,Travel related to shopping (except grocery shopping),0.05,0.05,0.05
+180801,Travel related to using childcare services,0.05,0.05,0.05
+180802,Travel related to using financial services and banking,0.05,0.05,0.05
+180803,Travel related to using legal services,0.05,0.05,0.05
+180804,Travel related to using medical services,0.05,0.05,0.05
+180805,Travel related to using personal care services,0.05,0.05,0.05
+180806,Travel related to using real estate services,0.05,0.05,0.05
+180807,Travel related to using veterinary services,0.05,0.05,0.05
+180899,"Travel rel. to using prof. & personal care services, n.e.c.*",0.05,0.05,0.05
+180901,Travel related to using household services,0.05,0.05,0.05
+180902,Travel related to using home main./repair/décor./construction svcs,0.05,0.05,0.05
+180903,Travel related to using pet services (not vet),0.05,0.05,0.05
+180904,Travel related to using lawn and garden services,0.05,0.05,0.05
+180905,Travel related to using vehicle maintenance & repair services,0.05,0.05,0.05
+180999,"Travel related to using household services, n.e.c.*",0.05,0.05,0.05
+181002,Travel related to civic obligations & participation,0.05,0.05,0.05
+181081,Travel related to using government services,0.05,0.05,0.05
+181099,"Travel rel. to govt svcs & civic obligations, n.e.c.*",0.05,0.05,0.05
+181101,Travel related to eating and drinking,0.05,0.05,0.05
+181199,"Travel related to eating and drinking, n.e.c.*",0.05,0.05,0.05
+181201,Travel related to socializing and communicating,0.05,0.05,0.05
+181202,Travel related to attending or hosting social events,0.05,0.05,0.05
+181204,Travel related to arts and entertainment,0.05,0.05,0.05
+181283,Travel related to relaxing and leisure,0.05,0.05,0.05
+181299,"Travel rel. to socializing, relaxing, & leisure, n.e.c.*",0.05,0.05,0.05
+181301,Travel related to participating in sports/exercise/recreation,0.05,0.05,0.05
+181302,Travel related to attending sporting/recreational events,0.05,0.05,0.05
+181399,"Travel related to sports, exercise, & recreation, n.e.c.*",0.05,0.05,0.05
+181401,Travel related to religious/spiritual practices,0.05,0.05,0.05
+181499,"Travel rel. to religious/spiritual activities, n.e.c.*",0.05,0.05,0.05
+181501,Travel related to volunteering,0.05,0.05,0.05
+181599,"Travel related to volunteer activities, n.e.c.*",0.05,0.05,0.05
+181601,Travel related to phone calls,0.05,0.05,0.05
+181699,"Travel rel. to phone calls, n.e.c.*",0.05,0.05,0.05
+181801,Security procedures related to traveling,0.05,0.05,0.05
+181899,"Security procedures related to traveling, n.e.c.*",0.05,0.05,0.05
+189999,"Traveling, n.e.c.*",0.05,0.05,0.05
+500101,Insufficient detail in verbatim,0.05,0.05,0.05
+500103,Missing travel or destination,0.05,0.05,0.05
+500104,Recorded simultaneous activities incorrectly,0.05,0.05,0.05
+500105,Respondent refused to provide information/none of your business,0.05,0.05,0.05
+500106,Gap/can't remember,0.05,0.05,0.05
+500107,Unable to code activity at 1st tier,0.05,0.05,0.05
+509989,"Data codes, n.e.c.*",0.05,0.05,0.05
