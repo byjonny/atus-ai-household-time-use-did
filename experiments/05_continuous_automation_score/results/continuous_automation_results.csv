@@ -1,0 +1,3 @@
+model,outcome,regressor,scale,coef,se,p_norm,cluster_se_by_task,cluster_p_norm,n_task_years,task_clusters,model_years,pre_years,post_years
+task_year_fe_continuous_automation,TUFNWGTP-weighted task minutes per day,automation_x_post,raw_0_to_1_score,-0.08810585890478251,0.15539744082588255,0.5707338124995491,0.14978861735548737,0.5563971873741691,3017,431,"2017,2018,2019,2021,2022,2023,2024","2017,2018,2019,2021,2022","2023,2024"
+task_year_fe_continuous_automation,TUFNWGTP-weighted task minutes per day,automation_z_x_post,one_sd_score,-0.013158748830392142,0.023208852590937558,0.5707338123122082,0.022371165969913218,0.5563971871835138,3017,431,"2017,2018,2019,2021,2022,2023,2024","2017,2018,2019,2021,2022","2023,2024"

@@ -1,0 +1,41 @@
+activity_code,activity_text,automation_score,augmentation_score,ai_exposure_score
+020901,Financial management,0.65,0.75,0.705
+030201,Homework (hh children),0.65,0.8,0.733
+020902,Household & personal organization and planning,0.6,0.65,0.628
+020903,HH & personal mail & messages (except e-mail),0.6,0.65,0.628
+020904,HH & personal e-mail and messages,0.6,0.65,0.628
+020905,Home security,0.6,0.65,0.628
+020999,"Household management, n.e.c.*",0.6,0.65,0.628
+080201,Banking,0.6,0.65,0.628
+080202,Using other financial services,0.6,0.65,0.628
+080203,Waiting associated w/banking/financial services,0.6,0.65,0.628
+080299,"Using financial services and banking, n.e.c.*",0.6,0.65,0.628
+080401,Using health and care services outside the home,0.6,0.65,0.628
+080402,Using in-home health and care services,0.6,0.65,0.628
+080403,Waiting associated with medical services,0.6,0.65,0.628
+080499,"Using medical services, n.e.c.*",0.6,0.65,0.628
+100101,Using police and fire services,0.6,0.65,0.628
+100102,Using social services,0.6,0.65,0.628
+100103,"Obtaining licenses & paying fines, fees, taxes",0.6,0.65,0.628
+100199,"Using government services, n.e.c.*",0.6,0.65,0.628
+160101,Telephone calls to/from family members,0.6,0.65,0.628
+160102,"Telephone calls to/from friends, neighbors, or acquaintances",0.6,0.65,0.628
+160103,Telephone calls to/from education services providers,0.6,0.65,0.628
+160104,Telephone calls to/from salespeople,0.6,0.65,0.628
+160105,Telephone calls to/from professional or personal care svcs providers,0.6,0.65,0.628
+160106,Telephone calls to/from household services providers,0.6,0.65,0.628
+160107,Telephone calls to/from paid child or adult care providers,0.6,0.65,0.628
+160108,Telephone calls to/from government officials,0.6,0.65,0.628
+060101,"Taking class for degree, certification, or licensure",0.45,0.6,0.532
+120308,Computer use for leisure (exc. Games),0.45,0.6,0.532
+140101,Attending religious services,0.45,0.6,0.532
+030202,Meetings and school conferences (hh children),0.35,0.8,0.598
+030203,Home schooling of hh children,0.35,0.8,0.598
+030204,Waiting associated with hh children's education,0.35,0.8,0.598
+030299,"Activities related to hh child's education, n.e.c.*",0.35,0.8,0.598
+060301,"Research/homework for class for degree, certification, or licensure",0.35,0.8,0.598
+060302,Research/homework for class for pers. interest,0.35,0.8,0.598
+060303,Waiting associated with research/homework,0.35,0.8,0.598
+060399,Research/homework n.e.c.*,0.35,0.8,0.598
+070101,Grocery shopping,0.25,0.35,0.305
+070102,Purchasing gas,0.25,0.35,0.305

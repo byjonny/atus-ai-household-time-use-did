@@ -9,6 +9,7 @@ experiments/01_simple_bundle_comparison/
 experiments/02_task_year_did/
 experiments/03_pre_ai_exposure/
 experiments/04_task_year_event_study/
+experiments/05_continuous_automation_score/
 ```
 
 Archived material is kept only for transparency and reproducibility.

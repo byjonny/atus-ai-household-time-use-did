@@ -13,7 +13,7 @@ The strongest design finds -2.27 minutes/day per 1 SD of pre-AI exposure.
 
 This is not proof of AI use. ATUS measures time use, not whether someone used ChatGPT.
 
-## The Four Experiments
+## The Five Experiments
 
 ### 1. Simple Bundle Comparison
 
@@ -174,6 +174,40 @@ Best use:
 Diagnostic check for the task-year DiD. It weakens a strong causal reading.
 ```
 
+### 5. Continuous Automation-Score FE Model
+
+Folder:
+
+```text
+experiments/05_continuous_automation_score/
+```
+
+Question:
+
+```text
+Do more automatable ATUS tasks change more after 2022?
+```
+
+Model:
+
+```text
+minutes_task,t = task FE + year FE + beta * automation_score_task x Post_t + error
+```
+
+Result:
+
+```text
+beta per 1 SD automation score = -0.013 min/day
+clustered p = 0.556
+```
+
+Best use:
+
+```text
+Cleaner continuous-score alternative to the binary task DiD.
+In this version, the effect is very small and not statistically significant.
+```
+
 ## How To Interpret The Results
 
 Careful interpretation:
@@ -242,6 +276,7 @@ python3 experiments/01_simple_bundle_comparison/run.py
 python3 experiments/02_task_year_did/run.py
 python3 experiments/03_pre_ai_exposure/run.py --run
 python3 experiments/04_task_year_event_study/run.py
+python3 experiments/05_continuous_automation_score/run.py
 ```
 
 ## Archive
@@ -252,4 +287,4 @@ Older exploratory analyses are in:
 archive/
 ```
 
-They are kept for transparency, but the active repo has only the four experiments above.
+They are kept for transparency, but the active repo has only the five experiments above.
