@@ -13,7 +13,7 @@ The strongest design finds -2.27 minutes/day per 1 SD of pre-AI exposure.
 
 This is not proof of AI use. ATUS measures time use, not whether someone used ChatGPT.
 
-## The Three Experiments
+## The Four Experiments
 
 ### 1. Simple Bundle Comparison
 
@@ -123,6 +123,51 @@ Preferred design. It uses predetermined exposure rather than observed AI use.
 Still reduced-form, not direct evidence of AI adoption.
 ```
 
+### 4. Task-Year Event Study
+
+Folder:
+
+```text
+experiments/04_task_year_event_study/
+```
+
+Question:
+
+```text
+Do AI-exposed tasks already move differently before ChatGPT, and what happens after 2022?
+```
+
+Model:
+
+```text
+minutes_task,t = task FE + year FE + beta_y * AI_exposed_task x 1[year = y] + error
+```
+
+Baseline year:
+
+```text
+2022
+```
+
+Post estimates:
+
+```text
+2023: -0.161 min/day, p = 0.218
+2024: -0.318 min/day, p = 0.152
+```
+
+Main warning:
+
+```text
+Pre-trends are not perfectly flat. 2019 is +0.518 min/day, p = 0.036.
+```
+
+Best use:
+
+```text
+Diagnostic check for the task-year DiD. It weakens a strong causal reading.
+```
+
 ## How To Interpret The Results
 
 Careful interpretation:
@@ -190,6 +235,7 @@ Run each experiment:
 python3 experiments/01_simple_bundle_comparison/run.py
 python3 experiments/02_task_year_did/run.py
 python3 experiments/03_pre_ai_exposure/run.py --run
+python3 experiments/04_task_year_event_study/run.py
 ```
 
 ## Archive
@@ -200,4 +246,4 @@ Older exploratory analyses are in:
 archive/
 ```
 
-They are kept for transparency, but the active repo has only the three experiments above.
+They are kept for transparency, but the active repo has only the four experiments above.

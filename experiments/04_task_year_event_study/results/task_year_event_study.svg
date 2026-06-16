@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
+<rect width="100%" height="100%" fill="white"/>
+<text x="400" y="24" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Task-year DiD event study, 2022 baseline</text>
+<line x1="75" y1="220.5" x2="765" y2="220.5" stroke="#999" stroke-dasharray="4 4"/>
+<line x1="75" y1="35" x2="75" y2="375" stroke="#333"/>
+<line x1="75" y1="375" x2="765" y2="375" stroke="#333"/>
+<text x="24" y="230" transform="rotate(-90 24 230)" font-family="Arial" font-size="13">AI vs low-exposure difference, min/day</text>
+<polyline points="75.0,189.3 173.6,165.5 272.1,156.5 469.3,222.7 666.4,240.3 765.0,259.7" fill="none" stroke="#1f6f8b" stroke-width="2.6"/>
+<line x1="75.0" y1="231.5" x2="75.0" y2="147.0" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="75.0" cy="189.3" r="4" fill="#1f6f8b"/>
+<text x="75.0" y="406" text-anchor="middle" font-family="Arial" font-size="12">2017</text>
+<line x1="173.6" y1="224.8" x2="173.6" y2="106.3" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="173.6" cy="165.5" r="4" fill="#1f6f8b"/>
+<text x="173.6" y="406" text-anchor="middle" font-family="Arial" font-size="12">2018</text>
+<line x1="272.1" y1="216.3" x2="272.1" y2="96.7" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="272.1" cy="156.5" r="4" fill="#1f6f8b"/>
+<text x="272.1" y="406" text-anchor="middle" font-family="Arial" font-size="12">2019</text>
+<line x1="469.3" y1="268.9" x2="469.3" y2="176.5" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="469.3" cy="222.7" r="4" fill="#1f6f8b"/>
+<text x="469.3" y="406" text-anchor="middle" font-family="Arial" font-size="12">2021</text>
+<line x1="666.4" y1="271.8" x2="666.4" y2="208.8" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="666.4" cy="240.3" r="4" fill="#1f6f8b"/>
+<text x="666.4" y="406" text-anchor="middle" font-family="Arial" font-size="12">2023</text>
+<line x1="765.0" y1="313.3" x2="765.0" y2="206.1" stroke="#77a9bb" stroke-width="1.4"/>
+<circle cx="765.0" cy="259.7" r="4" fill="#1f6f8b"/>
+<text x="765.0" y="406" text-anchor="middle" font-family="Arial" font-size="12">2024</text>
+</svg>
