@@ -1,0 +1,2 @@
+comparison,ai_exposed_change,low_exposure_physical_change,difference_in_differences,interpretation
+simple_bundle_difference_in_differences,-1.4988933422239015,5.568111873358049,-7.0670052155819505,"Negative means AI-exposed bundle fell more, or rose less, than the physical low-exposure bundle."

@@ -94,6 +94,28 @@ python3 scripts/atus_blank_exposure_design.py --run
 
 Raw BLS data are not included in the repo.
 
+## Simplest Check
+
+There is now a very simple bundle pre/post analysis in:
+
+```text
+docs/simple_bundle_prepost/
+scripts/simple_bundle_prepost.py
+results/simple_bundle_prepost/
+```
+
+It compares one clear AI-exposed task bundle with one low-exposure physical household bundle.
+
+Result:
+
+```text
+AI-exposed bundle: 26.45 -> 24.95 min/day
+Low-exposure bundle: 81.22 -> 86.78 min/day
+Simple bundle DiD: -7.07 min/day
+```
+
+This is the easiest version to understand. It is descriptive and has no regression.
+
 ## Secondary Check
 
 There is also a simpler activity-level DiD check in:

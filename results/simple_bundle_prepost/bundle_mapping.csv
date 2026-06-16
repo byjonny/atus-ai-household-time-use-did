@@ -1,0 +1,28 @@
+bundle,activity_code,official_activity_text,bundle_reason
+ai_exposed,020901,Financial management,Financial management
+ai_exposed,020902,Household & personal organization and planning,Household and personal organization and planning
+ai_exposed,020903,HH & personal mail & messages (except e-mail),Household and personal mail and messages
+ai_exposed,020904,HH & personal e-mail and messages,Household and personal e-mail and messages
+ai_exposed,030201,Homework (hh children),Homework with household children
+ai_exposed,060301,"Research/homework for class for degree, certification, or licensure",Research/homework for class for degree/certification
+ai_exposed,060302,Research/homework for class for pers. interest,Research/homework for class for personal interest
+ai_exposed,060399,Research/homework n.e.c.*,"Research/homework, n.e.c."
+ai_exposed,080201,Banking,Banking
+ai_exposed,080202,Using other financial services,Using other financial services
+ai_exposed,080299,"Using financial services and banking, n.e.c.*","Using financial services and banking, n.e.c."
+ai_exposed,080301,Using legal services,Using legal services
+ai_exposed,080399,"Using legal services, n.e.c.*","Using legal services, n.e.c."
+ai_exposed,080401,Using health and care services outside the home,Using health and care services outside the home
+ai_exposed,080402,Using in-home health and care services,Using in-home health and care services
+ai_exposed,080499,"Using medical services, n.e.c.*","Using medical services, n.e.c."
+ai_exposed,100103,"Obtaining licenses & paying fines, fees, taxes","Obtaining licenses and paying fines, fees, taxes"
+ai_exposed,100199,"Using government services, n.e.c.*","Using government services, n.e.c."
+low_exposure_physical,020101,Interior cleaning,Interior cleaning
+low_exposure_physical,020102,Laundry,Laundry
+low_exposure_physical,020201,Food and drink preparation,Food and drink preparation
+low_exposure_physical,020203,Kitchen and food clean-up,Kitchen and food cleanup
+low_exposure_physical,020501,"Lawn, garden, and houseplant care","Lawn, garden, and houseplant care"
+low_exposure_physical,020502,"Ponds, pools, and hot tubs","Ponds, pools, and hot tubs"
+low_exposure_physical,020599,"Lawn and garden, n.e.c.*","Lawn and garden, n.e.c."
+low_exposure_physical,020701,Vehicle repair and maintenance (by self),Vehicle repair and maintenance by self
+low_exposure_physical,020801,"Appliance, tool, and toy set-up, repair, & maintenance (by self)","Appliance, tool, and toy setup/repair/maintenance by self"
