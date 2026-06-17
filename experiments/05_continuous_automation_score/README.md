@@ -129,3 +129,4 @@ But it is still descriptive. The automation scores are constructed, many tasks r
 - `results/continuous_automation_results.csv`
 - `results/automation_score_summary.csv`
 - `results/top_automation_tasks.csv`
+- `results/task_positive_respondents_by_year.csv`
