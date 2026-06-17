@@ -1,0 +1,5 @@
+model,outcome,scale,coef,se,p_norm,pre_slope,post_slope,n_rows,tasks
+prepost_slope_comparison,participation_rate_weighted_pp,raw_0_to_1_ai_exposure_score,-0.07362454222943049,3.837439553207087,0.9846928450549182,-2.6430083932095383,-2.7166329354389687,862,431
+prepost_slope_comparison,participation_rate_weighted_pp,one_sd_ai_exposure_score,-0.012849296393087772,0.6697277391012636,0.9846928450549076,-0.46127007632745937,-0.47411937272054716,862,431
+prepost_slope_comparison,participation_rate_unweighted_pp,raw_0_to_1_ai_exposure_score,0.004212349604726611,3.8447855844633323,0.999125837327441,-2.7213320889685746,-2.7171197393638478,862,431
+prepost_slope_comparison,participation_rate_unweighted_pp,one_sd_ai_exposure_score,0.000735158779162745,0.6710098025282956,0.9991258373274506,-0.47493949077723596,-0.4742043319980732,862,431

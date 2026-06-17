@@ -13,7 +13,7 @@ The strongest design finds -2.27 minutes/day per 1 SD of pre-AI exposure.
 
 This is not proof of AI use. ATUS measures time use, not whether someone used ChatGPT.
 
-## The Five Experiments
+## The Six Experiments
 
 ### 1. Simple Bundle Comparison
 
@@ -208,6 +208,40 @@ Cleaner continuous-score alternative to the binary task DiD.
 In this version, the effect is very small and not statistically significant.
 ```
 
+### 6. Participation-Rate AI Exposure Model
+
+Folder:
+
+```text
+experiments/06_participation_exposure_prepost/
+```
+
+Question:
+
+```text
+Do higher-AI-exposure tasks become less likely to appear on ATUS diary days after 2022?
+```
+
+Outcome:
+
+```text
+weighted participation rate = share of respondents with >0 minutes in a task
+```
+
+Result:
+
+```text
+beta per 1 SD AI exposure score = -0.013 percentage points
+p = 0.594
+```
+
+Best use:
+
+```text
+Extensive-margin check. It tests participation, not minutes conditional on doing the task.
+No meaningful post-ChatGPT participation decline appears in this version.
+```
+
 ## How To Interpret The Results
 
 Careful interpretation:
@@ -277,6 +311,7 @@ python3 experiments/02_task_year_did/run.py
 python3 experiments/03_pre_ai_exposure/run.py --run
 python3 experiments/04_task_year_event_study/run.py
 python3 experiments/05_continuous_automation_score/run.py
+python3 experiments/06_participation_exposure_prepost/run.py
 ```
 
 ## Archive
@@ -287,4 +322,4 @@ Older exploratory analyses are in:
 archive/
 ```
 
-They are kept for transparency, but the active repo has only the five experiments above.
+They are kept for transparency, but the active repo has only the six experiments above.
